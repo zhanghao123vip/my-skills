@@ -1,0 +1,37 @@
+{
+  "id": "archive-fa6122bbf170",
+  "name": "古风临窗火锅递碗",
+  "aliases": [
+    "古风临窗火锅递碗"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/5b60ccad-9709-4b56-903d-0307f79d9723.md",
+      "sha256": "3b8959378f43639a59ca404c97bc913bcdbb4d78e34f5cab60d6e83446f2089e",
+      "source_message_id": "5b60ccad-9709-4b56-903d-0307f79d9723"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 83,
+      "image_file": "assets/aba9285fa3b8a16ee4bc.jpg",
+      "image_sha256": "aba9285fa3b8a16ee4bc559c30d93e6ba1cdfae1a5ef9c614a4b423b9a7a0653",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_58_58.jpg",
+      "source_document": "references/5b60ccad-9709-4b56-903d-0307f79d9723.md",
+      "source_message_id": "5b60ccad-9709-4b56-903d-0307f79d9723",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "夜间山景满月、木窗暖灯、火锅桌、第一人称递碗",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "archive-590ecf82cf55",
+  "name": "敦煌飞天高复刻",
+  "aliases": [
+    "敦煌飞天高复刻"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa.md",
+      "sha256": "dc11f91e64064c5a6ec4239d823be915fd242c2af7b44b26aedb4cfec70c5e0f",
+      "source_message_id": "9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 90,
+      "image_file": "assets/fec2d46e8e8021bab63b.jpg",
+      "image_sha256": "fec2d46e8e8021bab63b6066800cf7cfe4769d7487f706b55104ffa439020965",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_59_55.jpg",
+      "source_document": "references/9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa.md",
+      "source_message_id": "9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同敦煌母版与构图变体",
+      "evidence": "敦煌壁画石窟、彩色盘绕披帛、金冠、伸手人物",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 91,
+      "image_file": "assets/26e5dc421023cf7491fb.jpg",
+      "image_sha256": "26e5dc421023cf7491fbae71790fe4375bd418466a819765b8d07a6712153638",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_59_59.jpg",
+      "source_document": "references/9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa.md",
+      "source_message_id": "9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同敦煌母版与构图变体",
+      "evidence": "敦煌壁画石窟、彩色盘绕披帛、金冠、伸手人物",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 92,
+      "image_file": "assets/9f475572e2e3eb33c3c1.jpg",
+      "image_sha256": "9f475572e2e3eb33c3c1d1b5611439b4d8455a5db06c0a192d0287150b63136e",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_00_03.jpg",
+      "source_document": "references/9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa.md",
+      "source_message_id": "9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同敦煌母版与构图变体",
+      "evidence": "敦煌壁画石窟、彩色盘绕披帛、金冠、伸手人物",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 93,
+      "image_file": "assets/b595d3b3c5fc36aef309.jpg",
+      "image_sha256": "b595d3b3c5fc36aef30926160f66ec210a34153378aaa18abf3fd1d90a44e51e",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_00_06.jpg",
+      "source_document": "references/9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa.md",
+      "source_message_id": "9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同敦煌母版与构图变体",
+      "evidence": "敦煌壁画石窟、彩色盘绕披帛、金冠、伸手人物",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 94,
+      "image_file": "assets/fec2d46e8e8021bab63b.jpg",
+      "image_sha256": "fec2d46e8e8021bab63b6066800cf7cfe4769d7487f706b55104ffa439020965",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_00_10.jpg",
+      "source_document": "references/9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa.md",
+      "source_message_id": "9c39e3ba-3fa7-452d-b8ef-e9c2a2077eaa",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同敦煌母版与构图变体",
+      "evidence": "敦煌壁画石窟、彩色盘绕披帛、金冠、伸手人物",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 4,
+  "image_records": 5,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

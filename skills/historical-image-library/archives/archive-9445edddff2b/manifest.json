@@ -1,0 +1,169 @@
+{
+  "id": "archive-9445edddff2b",
+  "name": "月桂灵兔仙姬",
+  "aliases": [
+    "月桂灵兔仙姬",
+    "月桂灵兔",
+    "月桂灵兔仙姬Skill"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "sha256": "a9948ea5221390f414c5e501aa0d63d4f2a24263f666741af1b8d51d7eedc84a",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 56,
+      "image_file": "assets/8e875faf09eddf5f2dd1.png",
+      "image_sha256": "8e875faf09eddf5f2dd1dd48048c1d2a40331f5c1dd548c91059d0cf0a8aca23",
+      "original_download_name": "月下花庭与白兔少女.png",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 57,
+      "image_file": "assets/faf5d6b04f7551513efe.png",
+      "image_sha256": "faf5d6b04f7551513efe9329da0a576f68ddb1778ce73d41b6879afe7356234a",
+      "original_download_name": "月下金桂与白兔仙子.png",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 96,
+      "image_file": "assets/f9b0a209110012beeb42.jpg",
+      "image_sha256": "f9b0a209110012beeb4250cc19c651ab3e4ee3e5f9e7266c74d316b43e23670a",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_00_44.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 97,
+      "image_file": "assets/6506ab0e9ee658f25bd4.jpg",
+      "image_sha256": "6506ab0e9ee658f25bd49bd257ea2f595077c7b2dc02c72ff445a9f1816f1e22",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_00_48.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_specific",
+      "association_scope": "原九图中第二张抱兔近景，对应原回复第二张反推",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 98,
+      "image_file": "assets/ff988b743b5a1ffe69ca.jpg",
+      "image_sha256": "ff988b743b5a1ffe69cada7f7fdc1375843439912af2a238852e4d15698c2fbb",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_00_52.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 99,
+      "image_file": "assets/8ddf3f0c5cb2558a67ab.jpg",
+      "image_sha256": "8ddf3f0c5cb2558a67ab52eedaf2a7f266ce5ddfe1c5ab26a08681e39348eaa6",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_00_57.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 100,
+      "image_file": "assets/cf219cd379b6e17c140f.jpg",
+      "image_sha256": "cf219cd379b6e17c140fb28d3128711ce0e485175c72947f67b003aff80e7128",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_00.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 101,
+      "image_file": "assets/2fc6e1d782a0ec2ee952.jpg",
+      "image_sha256": "2fc6e1d782a0ec2ee9521907acf383c465a11c487b55cb19c099de375aa75118",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_04.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 102,
+      "image_file": "assets/e9da21089aead541878d.jpg",
+      "image_sha256": "e9da21089aead541878d333fb8c46354961b68b0ca738818b409061c3473066d",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_07.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 103,
+      "image_file": "assets/498f68549aad053ce422.jpg",
+      "image_sha256": "498f68549aad053ce4220222a763e7b0ed59e60fe0a7433304459b29406cdbb0",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_12.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 104,
+      "image_file": "assets/1c7e2ae2e3d61b15c28a.jpg",
+      "image_sha256": "1c7e2ae2e3d61b15c28a761f8154c44bbc99de9fc683c3fb8a9808a67c0df0a6",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_15.jpg",
+      "source_document": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+      "source_message_id": "a4c6738d-96ce-4578-b653-43073ca4c774",
+      "association_level": "visual_group_or_template",
+      "association_scope": "96至104与原九图布局吻合；56至57为同风格另外文件",
+      "evidence": "桂花金色花海、月夜、白兔、银白仙裙；97对应第二张抱兔近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 11,
+  "image_records": 11,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

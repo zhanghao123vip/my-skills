@@ -1,0 +1,76 @@
+{
+  "id": "archive-61384250a3f7",
+  "name": "东方古风电影美女｜月华琉璃仙宴分支",
+  "aliases": [
+    "东方古风电影美女｜月华琉璃仙宴分支"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/9694cdac-0cbc-4364-9ed8-bddec06a531d.md",
+      "sha256": "235bab98d1b81be2a473fad7339643cbabe8e4451a5bbffa5a2a514ee70b324f",
+      "source_message_id": "9694cdac-0cbc-4364-9ed8-bddec06a531d"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 118,
+      "image_file": "assets/06885f35fe69adf3958e.jpg",
+      "image_sha256": "06885f35fe69adf3958e693ee93d05dd334420fa238c51b9618ef8e6e8c283da",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_02_52.jpg",
+      "source_document": "references/9694cdac-0cbc-4364-9ed8-bddec06a531d.md",
+      "source_message_id": "9694cdac-0cbc-4364-9ed8-bddec06a531d",
+      "association_level": "visual_group_or_template",
+      "association_scope": "对应分支样本；原回复只对第四张回眸仙兔构图提供逐图指令",
+      "evidence": "巨月、香槟金天宫、透明琉璃飘带、月下宴席与神女",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 119,
+      "image_file": "assets/445def2986fefae93f3c.jpg",
+      "image_sha256": "445def2986fefae93f3c998cb52dac1d750b9983c9185c650038303571066dbc",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_03_02.jpg",
+      "source_document": "references/9694cdac-0cbc-4364-9ed8-bddec06a531d.md",
+      "source_message_id": "9694cdac-0cbc-4364-9ed8-bddec06a531d",
+      "association_level": "visual_group_or_template",
+      "association_scope": "对应分支样本；原回复只对第四张回眸仙兔构图提供逐图指令",
+      "evidence": "巨月、香槟金天宫、透明琉璃飘带、月下宴席与神女",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 120,
+      "image_file": "assets/6608cd8840e87b7799fd.jpg",
+      "image_sha256": "6608cd8840e87b7799fd93aff5d8e34160aa276a338c6ade840f636a81edb560",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_03_06.jpg",
+      "source_document": "references/9694cdac-0cbc-4364-9ed8-bddec06a531d.md",
+      "source_message_id": "9694cdac-0cbc-4364-9ed8-bddec06a531d",
+      "association_level": "visual_group_or_template",
+      "association_scope": "对应分支样本；原回复只对第四张回眸仙兔构图提供逐图指令",
+      "evidence": "巨月、香槟金天宫、透明琉璃飘带、月下宴席与神女",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 121,
+      "image_file": "assets/8f51716b3785ca19c594.jpg",
+      "image_sha256": "8f51716b3785ca19c594c9bdb48950dbea38355a851a393ada89c92fbe2773a4",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_03_09.jpg",
+      "source_document": "references/9694cdac-0cbc-4364-9ed8-bddec06a531d.md",
+      "source_message_id": "9694cdac-0cbc-4364-9ed8-bddec06a531d",
+      "association_level": "visual_group_or_template",
+      "association_scope": "对应分支样本；原回复只对第四张回眸仙兔构图提供逐图指令",
+      "evidence": "巨月、香槟金天宫、透明琉璃飘带、月下宴席与神女",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 4,
+  "image_records": 4,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

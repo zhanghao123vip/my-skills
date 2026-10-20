@@ -1,0 +1,67 @@
+{
+  "id": "archive-70b43e3f8475",
+  "name": "冷调自拍换场景",
+  "aliases": [
+    "冷调自拍换场景"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/ae68bbd1-4292-4ecd-b0e0-b9143bae5256.md",
+      "sha256": "99f25a7c0af012a2845d5f964b03992ca3a83459bf9d3ccb21816adb72c4a022",
+      "source_message_id": "ae68bbd1-4292-4ecd-b0e0-b9143bae5256"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 11,
+      "image_file": "assets/d3136a7b127b91ad007d.png",
+      "image_sha256": "d3136a7b127b91ad007d3a9817586ca927e61e22175db1e3c4be504f764d9c6c",
+      "original_download_name": "地铁车厢里的秋日自拍.png",
+      "source_document": "references/ae68bbd1-4292-4ecd-b0e0-b9143bae5256.md",
+      "source_message_id": "ae68bbd1-4292-4ecd-b0e0-b9143bae5256",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同人物换背景系列，逐文件来源优先看哈希",
+      "evidence": "中分长黑发、银色圆环耳饰、黑色星星颈圈、贴近镜头自拍",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 12,
+      "image_file": "assets/4ed2cd46d192e928d180.png",
+      "image_sha256": "4ed2cd46d192e928d18067eeee62019167f331e6f86df62f95b4ca482e3d1cab",
+      "original_download_name": "地铁自拍少女肖像.png",
+      "source_document": "references/ae68bbd1-4292-4ecd-b0e0-b9143bae5256.md",
+      "source_message_id": "ae68bbd1-4292-4ecd-b0e0-b9143bae5256",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同人物换背景系列，逐文件来源优先看哈希",
+      "evidence": "中分长黑发、银色圆环耳饰、黑色星星颈圈、贴近镜头自拍",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-005-冷调自拍换场景\\generated01.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 51,
+      "image_file": "assets/fe4378846b886c668867.png",
+      "image_sha256": "fe4378846b886c6688675cdda68e9b13ec2d6799b677e44dd19efaa63c812874",
+      "original_download_name": "夜景公寓里的星星 choker 自拍.png",
+      "source_document": "references/ae68bbd1-4292-4ecd-b0e0-b9143bae5256.md",
+      "source_message_id": "ae68bbd1-4292-4ecd-b0e0-b9143bae5256",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同人物换背景系列，逐文件来源优先看哈希",
+      "evidence": "中分长黑发、银色圆环耳饰、黑色星星颈圈、贴近镜头自拍",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-007-夜景公寓换背景\\generated01.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 3,
+  "image_records": 3,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

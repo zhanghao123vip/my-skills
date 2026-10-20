@@ -1,0 +1,84 @@
+{
+  "id": "archive-61e48310f166",
+  "name": "敦煌祈愿人物",
+  "aliases": [
+    "敦煌祈愿人物"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/56630b18-b668-4c60-b30f-b1552e152810.md",
+      "sha256": "7b694f9aa3ac8b2a892adebb11e46994359c39948dc487ed8f8c84ea57105229",
+      "source_message_id": "56630b18-b668-4c60-b30f-b1552e152810"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 15,
+      "image_file": "assets/b9b03a08dc62dc3581a5.png",
+      "image_sha256": "b9b03a08dc62dc3581a5ec16ca4468d8acaa5875517d0f7dadd110fb3412ae2a",
+      "original_download_name": "古寺壁画前的祈福少女.png",
+      "source_document": "references/56630b18-b668-4c60-b30f-b1552e152810.md",
+      "source_message_id": "56630b18-b668-4c60-b30f-b1552e152810",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同系列母版，具体姿态仍区分",
+      "evidence": "敦煌壁画、金色侧逆光、合十祈祷，正面与侧面变体",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-008-敦煌成品反推\\generated01.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 23,
+      "image_file": "assets/69820d07cfaca533aed4.png",
+      "image_sha256": "69820d07cfaca533aed473aa6d474809432355b028cfcd09359ec41b6e071fdd",
+      "original_download_name": "金色壁画前的古韵佳人.png",
+      "source_document": "references/56630b18-b668-4c60-b30f-b1552e152810.md",
+      "source_message_id": "56630b18-b668-4c60-b30f-b1552e152810",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同系列母版，具体姿态仍区分",
+      "evidence": "敦煌壁画、金色侧逆光、合十祈祷，正面与侧面变体",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-008-敦煌成品反推\\generated02.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 24,
+      "image_file": "assets/02fcb230f01687ab7fe2.png",
+      "image_sha256": "02fcb230f01687ab7fe24fc1febe31e2d291091d23a6b013b5a5f0b3b6aceda1",
+      "original_download_name": "金色壁画前的宁静祈祷者.png",
+      "source_document": "references/56630b18-b668-4c60-b30f-b1552e152810.md",
+      "source_message_id": "56630b18-b668-4c60-b30f-b1552e152810",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同系列母版，具体姿态仍区分",
+      "evidence": "敦煌壁画、金色侧逆光、合十祈祷，正面与侧面变体",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-008-敦煌成品反推\\generated04.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 25,
+      "image_file": "assets/d74bbb62e23d3a9d8cbb.png",
+      "image_sha256": "d74bbb62e23d3a9d8cbb0f540ca5d13c515a58ffade749b1a579d988c277508c",
+      "original_download_name": "金饰祈愿：古壁前的东方圣像.png",
+      "source_document": "references/56630b18-b668-4c60-b30f-b1552e152810.md",
+      "source_message_id": "56630b18-b668-4c60-b30f-b1552e152810",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同系列母版，具体姿态仍区分",
+      "evidence": "敦煌壁画、金色侧逆光、合十祈祷，正面与侧面变体",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-008-敦煌成品反推\\generated03.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 4,
+  "image_records": 4,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

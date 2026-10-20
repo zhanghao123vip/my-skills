@@ -1,0 +1,50 @@
+{
+  "id": "archive-4936cf980522",
+  "name": "现代高定九宫格穿装",
+  "aliases": [
+    "现代高定九宫格穿装"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/91769c07-0d88-40e2-b33d-59f5d7f9c8b8.md",
+      "sha256": "a3523f2336b5eed9a3af43fd9780307675c04d625538710edc9e5fc5208cdf44",
+      "source_message_id": "91769c07-0d88-40e2-b33d-59f5d7f9c8b8"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 1,
+      "image_file": "assets/b3e67ebb4bd32db0c9bb.png",
+      "image_sha256": "b3e67ebb4bd32db0c9bb9e8890fe016c235e27b5347837a54b489d0b75cb1c91",
+      "original_download_name": "0001.png",
+      "source_document": "references/91769c07-0d88-40e2-b33d-59f5d7f9c8b8.md",
+      "source_message_id": "91769c07-0d88-40e2-b33d-59f5d7f9c8b8",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同系列对应，完整反推不冒充每张独立原指令",
+      "evidence": "同一成年长卷发女性、香槟银钻礼服、巴黎窗景、九步穿装；为不同构图文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 3,
+      "image_file": "assets/a49b71cc5c7a87ad2f03.png",
+      "image_sha256": "a49b71cc5c7a87ad2f031ddb880748bc000d2479566fbf5b5f3c7d646b629fe4",
+      "original_download_name": "0003.png",
+      "source_document": "references/91769c07-0d88-40e2-b33d-59f5d7f9c8b8.md",
+      "source_message_id": "91769c07-0d88-40e2-b33d-59f5d7f9c8b8",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同系列对应，完整反推不冒充每张独立原指令",
+      "evidence": "同一成年长卷发女性、香槟银钻礼服、巴黎窗景、九步穿装；为不同构图文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

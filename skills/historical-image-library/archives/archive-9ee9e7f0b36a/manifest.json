@@ -1,0 +1,37 @@
+{
+  "id": "archive-9ee9e7f0b36a",
+  "name": "夜间街头露营椅",
+  "aliases": [
+    "夜间街头露营椅"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/6e633f44-d751-4e0b-bf27-6ae4d64e3a28.md",
+      "sha256": "6f32a4a7e1d2adeb3786365652c0d24bece1a177bfa3052e2b044fc2975c5506",
+      "source_message_id": "6e633f44-d751-4e0b-bf27-6ae4d64e3a28"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 31,
+      "image_file": "assets/f5fa13ba63f29e5ffa77.png",
+      "image_sha256": "f5fa13ba63f29e5ffa771b32bebbad1645931d5b2a92b020d06879e70bbedbfe",
+      "original_download_name": "霓虹街角四格少女肖像.png",
+      "source_document": "references/6e633f44-d751-4e0b-bf27-6ae4d64e3a28.md",
+      "source_message_id": "6e633f44-d751-4e0b-bf27-6ae4d64e3a28",
+      "association_level": "visual_group_or_template",
+      "association_scope": "对应可见夜景系列，四格一个文件",
+      "evidence": "紫黑修身套装、户外折叠椅、夜间街头、四幅同场景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

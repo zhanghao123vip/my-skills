@@ -1,0 +1,37 @@
+{
+  "id": "archive-68dab92f4585",
+  "name": "绿调咖啡杯近景",
+  "aliases": [
+    "绿调咖啡杯近景"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/3e5ba10f-c690-45d2-b78d-026cb654ad70.md",
+      "sha256": "15bb79e28870af9deedc5558932e23c7dd927ff2e74ef89e536129522250660e",
+      "source_message_id": "3e5ba10f-c690-45d2-b78d-026cb654ad70"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 95,
+      "image_file": "assets/360e939a42f93f263d22.png",
+      "image_sha256": "360e939a42f93f263d22c36c675b341f16e103e252661a5895d2b5e6988bc615",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_00_17.png",
+      "source_document": "references/3e5ba10f-c690-45d2-b78d-026cb654ad70.md",
+      "source_message_id": "3e5ba10f-c690-45d2-b78d-026cb654ad70",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "近距离回眸、咖啡杯、绿背景、发丝高光",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "archive-051797cdfb44",
+  "name": "极近手机面部自拍",
+  "aliases": [
+    "极近手机面部自拍"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/70ee237f-54ac-408d-98d1-a8bf8b7cdf3d.md",
+      "sha256": "7ac8a0ce0757a192fb694dc9d22341d4c9e7153f35ce808f1e45c890bc7eebfa",
+      "source_message_id": "70ee237f-54ac-408d-98d1-a8bf8b7cdf3d"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 62,
+      "image_file": "assets/62ce18b936188fba327f.png",
+      "image_sha256": "62ce18b936188fba327fb1c63123bc1b4cec4d6722cb6347a3051e84d18f07a7",
+      "original_download_name": "自然光下的甜美近距离自拍.png",
+      "source_document": "references/70ee237f-54ac-408d-98d1-a8bf8b7cdf3d.md",
+      "source_message_id": "70ee237f-54ac-408d-98d1-a8bf8b7cdf3d",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "贴脸自拍、轻微广角、左侧裁脸、自然皮肤细节",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

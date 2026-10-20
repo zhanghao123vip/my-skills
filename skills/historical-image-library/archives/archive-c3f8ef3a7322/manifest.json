@@ -1,0 +1,37 @@
+{
+  "id": "archive-c3f8ef3a7322",
+  "name": "晴空花影巨型牡丹",
+  "aliases": [
+    "晴空花影巨型牡丹"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/4717b34e-684c-4e57-b279-12513d969638.md",
+      "sha256": "f5ecd77ce1454760a63f6baa000fc010ee4b738cb8ccab24c4032931d4dc0f88",
+      "source_message_id": "4717b34e-684c-4e57-b279-12513d969638"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 29,
+      "image_file": "assets/8a40a44352be7f6ff163.png",
+      "image_sha256": "8a40a44352be7f6ff16354d1c2041a4dd1179c0d12438d01d769a7f474417464",
+      "original_download_name": "玫瑰花园中的春日少女.png",
+      "source_document": "references/4717b34e-684c-4e57-b279-12513d969638.md",
+      "source_message_id": "4717b34e-684c-4e57-b279-12513d969638",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "巨型粉色牡丹、蓝天、透明帽檐、近距离人物",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

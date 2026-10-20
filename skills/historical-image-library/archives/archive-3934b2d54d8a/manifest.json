@@ -1,0 +1,50 @@
+{
+  "id": "archive-3934b2d54d8a",
+  "name": "私密相册截图氛围",
+  "aliases": [
+    "私密相册截图氛围"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/8d9f1829-1dbf-4418-9844-988be30d0ae1.md",
+      "sha256": "66b46821098370f07fdb7c8507caeda19060b2d7838f67db902ace1c9c10575b",
+      "source_message_id": "8d9f1829-1dbf-4418-9844-988be30d0ae1"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 41,
+      "image_file": "assets/c783db74edf28b3378bd.png",
+      "image_sha256": "c783db74edf28b3378bd86f955faed3d5cf231d97c9ba2508aa3dda8a925d1db",
+      "original_download_name": "深夜私密相簿拼图.png",
+      "source_document": "references/8d9f1829-1dbf-4418-9844-988be30d0ae1.md",
+      "source_message_id": "8d9f1829-1dbf-4418-9844-988be30d0ae1",
+      "association_level": "visual_group_or_template",
+      "association_scope": "此处截图本身是用户历史参考，不是本次过程截图",
+      "evidence": "手机相册总览界面、日期文字、照片网格",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 59,
+      "image_file": "assets/bc982ca56fbcee92d987.png",
+      "image_sha256": "bc982ca56fbcee92d987d85277e30bc08afaf6b6fcb429abc20c5e9888cdbe55",
+      "original_download_name": "只屬於我們的夜晚.png",
+      "source_document": "references/8d9f1829-1dbf-4418-9844-988be30d0ae1.md",
+      "source_message_id": "8d9f1829-1dbf-4418-9844-988be30d0ae1",
+      "association_level": "visual_group_or_template",
+      "association_scope": "此处截图本身是用户历史参考，不是本次过程截图",
+      "evidence": "手机相册总览界面、日期文字、照片网格",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

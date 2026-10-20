@@ -1,0 +1,37 @@
+{
+  "id": "archive-143857c755d5",
+  "name": "现代学院风九宫格",
+  "aliases": [
+    "现代学院风九宫格"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/5955948b-5fb8-4f31-ba0b-d5ab79c9fc9e.md",
+      "sha256": "b3eef3e5bd318922380e97f40a86d3e6612acc5021eb1716191c842a9aaea302",
+      "source_message_id": "5955948b-5fb8-4f31-ba0b-d5ab79c9fc9e"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 2,
+      "image_file": "assets/98c45fd51e5afc5ec0a6.png",
+      "image_sha256": "98c45fd51e5afc5ec0a669d342dd4c37416bc2423759113e0313a13d438b2cb0",
+      "original_download_name": "0002.png",
+      "source_document": "references/5955948b-5fb8-4f31-ba0b-d5ab79c9fc9e.md",
+      "source_message_id": "5955948b-5fb8-4f31-ba0b-d5ab79c9fc9e",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "白衬衫、灰针织背心、百褶裙、深色西装、长靴、九步穿装",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

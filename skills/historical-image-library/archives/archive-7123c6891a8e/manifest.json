@@ -1,0 +1,37 @@
+{
+  "id": "archive-7123c6891a8e",
+  "name": "桃粉胭脂夜园",
+  "aliases": [
+    "桃粉胭脂夜园"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/424512db-6cb2-4be8-9e3f-119e0bca453c.md",
+      "sha256": "ce41a8a09ee6b0d1e41673485cf8a011365f8bd446d2fd071a320351c8fe52ee",
+      "source_message_id": "424512db-6cb2-4be8-9e3f-119e0bca453c"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 105,
+      "image_file": "assets/d47de887d744dcdb88d2.jpg",
+      "image_sha256": "d47de887d744dcdb88d28f1a87fb6511c36161afb73d6bd0fb635481b9d860ff",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_29.jpg",
+      "source_document": "references/424512db-6cb2-4be8-9e3f-119e0bca453c.md",
+      "source_message_id": "424512db-6cb2-4be8-9e3f-119e0bca453c",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "胭脂粉披帛、珠翠簪花、夜园近景",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

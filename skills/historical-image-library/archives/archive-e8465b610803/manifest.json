@@ -1,0 +1,88 @@
+{
+  "id": "archive-e8465b610803",
+  "name": "东方古风电影美女",
+  "aliases": [
+    "东方古风电影美女"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/6bf436da-b643-4e60-817b-e79094cf7290.md",
+      "sha256": "737b3892ffed22a02e58a61e2f164f88faf06310e7775a699d1255efc434b7aa",
+      "source_message_id": "6bf436da-b643-4e60-817b-e79094cf7290"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 42,
+      "image_file": "assets/6c0de9ae70c4a477246b.png",
+      "image_sha256": "6c0de9ae70c4a477246bea2896b950869fcd024d2d1705db50ace8512f16c18f",
+      "original_download_name": "雾岸荷叶滴珠少女.png",
+      "source_document": "references/6bf436da-b643-4e60-817b-e79094cf7290.md",
+      "source_message_id": "6bf436da-b643-4e60-817b-e79094cf7290",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同一Skill历史成品；该完整反推只逐图对应正脸43",
+      "evidence": "浅青白汉服、玉簪长发、竹林溪边、莲叶篮筐",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-016-东方古风电影美女首组三图\\generated03-lotus.png",
+        "独立Skill包\\oriental-cinema\\assets\\generated03-lotus.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 44,
+      "image_file": "assets/0414133d2de9d883758e.png",
+      "image_sha256": "0414133d2de9d883758eca6c98228a16c5720e82005465a0e123057f97a01850",
+      "original_download_name": "溪畔汉服少女与莲叶篮.png",
+      "source_document": "references/6bf436da-b643-4e60-817b-e79094cf7290.md",
+      "source_message_id": "6bf436da-b643-4e60-817b-e79094cf7290",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同一Skill历史成品；该完整反推只逐图对应正脸43",
+      "evidence": "浅青白汉服、玉簪长发、竹林溪边、莲叶篮筐",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-016-东方古风电影美女首组三图\\generated04-stream.png",
+        "独立Skill包\\oriental-cinema\\assets\\generated04-stream.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 60,
+      "image_file": "assets/aed1ed0393e0bf9a371d.png",
+      "image_sha256": "aed1ed0393e0bf9a371db51261146b19f4df42373e11c0cb9e647673d34b0ab8",
+      "original_download_name": "竹林回眸的青衫佳人.png",
+      "source_document": "references/6bf436da-b643-4e60-817b-e79094cf7290.md",
+      "source_message_id": "6bf436da-b643-4e60-817b-e79094cf7290",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同一Skill历史成品；该完整反推只逐图对应正脸43",
+      "evidence": "浅青白汉服、玉簪长发、竹林溪边、莲叶篮筐",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-016-东方古风电影美女首组三图\\generated02-bamboo.png",
+        "独立Skill包\\oriental-cinema\\assets\\generated02-bamboo.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 61,
+      "image_file": "assets/7a9970d811245060c2b5.png",
+      "image_sha256": "7a9970d811245060c2b59d866fdf376db8689bd0661a36f0ebadd886f067297a",
+      "original_download_name": "竹影荷塘间的汉服女子.png",
+      "source_document": "references/6bf436da-b643-4e60-817b-e79094cf7290.md",
+      "source_message_id": "6bf436da-b643-4e60-817b-e79094cf7290",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同一Skill历史成品；该完整反推只逐图对应正脸43",
+      "evidence": "浅青白汉服、玉簪长发、竹林溪边、莲叶篮筐",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-016-东方古风电影美女首组三图\\generated01-triptych.png",
+        "独立Skill包\\oriental-cinema\\assets\\generated01-triptych.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 4,
+  "image_records": 4,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

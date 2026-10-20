@@ -1,0 +1,52 @@
+{
+  "id": "archive-e97536af11dd",
+  "name": "夜晚卧室俯拍",
+  "aliases": [
+    "夜晚卧室俯拍"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/98c9e13f-16b8-4093-9871-39d469630b0e.md",
+      "sha256": "79ad41bb458d3cd2df08c743a0df8b0ddc67ea365a2533e3120f0e6e45935c86",
+      "source_message_id": "98c9e13f-16b8-4093-9871-39d469630b0e"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 14,
+      "image_file": "assets/81500185982238c6e548.png",
+      "image_sha256": "81500185982238c6e5483d6d90f5bb135dea3f9a40fd8335c84742e7a6b1b01b",
+      "original_download_name": "俯拍夜色中的床上肖像.png",
+      "source_document": "references/98c9e13f-16b8-4093-9871-39d469630b0e.md",
+      "source_message_id": "98c9e13f-16b8-4093-9871-39d469630b0e",
+      "association_level": "visual_group_or_template",
+      "association_scope": "对应可见人物与动作，不推定每张均为生成成品",
+      "evidence": "白色背心、俯拍床边、双手支撑、深色卧室",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-006-夜晚卧室俯拍\\generated01.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 39,
+      "image_file": "assets/e06fa7175037b943fe7c.png",
+      "image_sha256": "e06fa7175037b943fe7c8ab69f2c17b1a3cc7791d43b7c79a8379d77fd9c79ef",
+      "original_download_name": "闪光灯下的卧室凝视.png",
+      "source_document": "references/98c9e13f-16b8-4093-9871-39d469630b0e.md",
+      "source_message_id": "98c9e13f-16b8-4093-9871-39d469630b0e",
+      "association_level": "visual_group_or_template",
+      "association_scope": "对应可见人物与动作，不推定每张均为生成成品",
+      "evidence": "白色背心、俯拍床边、双手支撑、深色卧室",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

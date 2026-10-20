@@ -1,0 +1,66 @@
+{
+  "id": "archive-abb440be48ec",
+  "name": "盛夏森林逆光白裙写真｜晨光森灵分支",
+  "aliases": [
+    "盛夏森林逆光白裙写真｜晨光森灵分支",
+    "晨光森灵",
+    "晨光森灵分支",
+    "盛夏森林逆光白裙写真"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/c501febc-bf8a-4088-ab2e-9c7e4f895da4.md",
+      "sha256": "165ac00651bcc26e31f47b261311438b58b5133563c86f2b79485fadb4a698aa",
+      "source_message_id": "c501febc-bf8a-4088-ab2e-9c7e4f895da4"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 122,
+      "image_file": "assets/b6b06ed4a2483f3ede0e.jpg",
+      "image_sha256": "b6b06ed4a2483f3ede0e5282d1f9c49366be71bf85ab0d5ccb6950cf66622e3c",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_03_15.jpg",
+      "source_document": "references/c501febc-bf8a-4088-ab2e-9c7e4f895da4.md",
+      "source_message_id": "c501febc-bf8a-4088-ab2e-9c7e4f895da4",
+      "association_level": "visual_specific",
+      "association_scope": "第一张正面坐姿，与完整反推逐图对应",
+      "evidence": "超长黑发、象牙白薄纱、森林暖金逆光、前景绿叶；122正面坐姿对应首图",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 123,
+      "image_file": "assets/90512008a19e4eb7549a.jpg",
+      "image_sha256": "90512008a19e4eb7549aab6d2af805ce98d3f804018bd87083da481673c313e1",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_03_20.jpg",
+      "source_document": "references/c501febc-bf8a-4088-ab2e-9c7e4f895da4.md",
+      "source_message_id": "c501febc-bf8a-4088-ab2e-9c7e4f895da4",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同组第二、三张参考；原回复未提供这两张各自的完整独立指令",
+      "evidence": "超长黑发、象牙白薄纱、森林暖金逆光、前景绿叶；122正面坐姿对应首图",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 124,
+      "image_file": "assets/b1c15d69f1036e0cd0d4.jpg",
+      "image_sha256": "b1c15d69f1036e0cd0d4b7c8552c6782bf101a54c0eb4bab9e2cd765369ef877",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_03_25.jpg",
+      "source_document": "references/c501febc-bf8a-4088-ab2e-9c7e4f895da4.md",
+      "source_message_id": "c501febc-bf8a-4088-ab2e-9c7e4f895da4",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同组第二、三张参考；原回复未提供这两张各自的完整独立指令",
+      "evidence": "超长黑发、象牙白薄纱、森林暖金逆光、前景绿叶；122正面坐姿对应首图",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 3,
+  "image_records": 3,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

@@ -1,0 +1,2 @@
+# 资料包文件参与 SHA-256 校验，必须按原字节存储，禁止换行符转换
+skills/historical-image-library/archives/** -text

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "manifest.json",
+    "bytes": 3015,
+    "sha256": "99a6115c7ddd060c26ea40946aab650e600ee063a89626aed2e269a074810b10"
+  },
+  {
+    "file": "SKILL.md",
+    "bytes": 653,
+    "sha256": "fa86eba296bc4a56628d827b9866280716bc988a49240dc8b733c8dd2ed57e0a"
+  },
+  {
+    "file": "assets/2524682540c8ccbfd5e0.png",
+    "bytes": 2504921,
+    "sha256": "2524682540c8ccbfd5e0bd3bce68b579b42135b9c217134e030963bde6c39486"
+  },
+  {
+    "file": "assets/a1334aefbfdf7d032a13.png",
+    "bytes": 2290069,
+    "sha256": "a1334aefbfdf7d032a132aea7563a414bc0b75b197cffe02a7f1307d8e782e52"
+  },
+  {
+    "file": "assets/b0f1f6b30cbd3c662576.png",
+    "bytes": 2373340,
+    "sha256": "b0f1f6b30cbd3c66257689de1ee439b60677291129ed4fb668b5ed816692a419"
+  },
+  {
+    "file": "references/8c62136e-9fce-4767-96f9-d1cc6222bb99.md",
+    "bytes": 4828,
+    "sha256": "23d498b7b345887f3cc451225901c8a31cefe1ffaecab59d2116db3498c0c891"
+  }
+]

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# 历史图文库的原图不公开发布，只保留在本地
+skills/historical-image-library/archives/*/assets/*
+!skills/historical-image-library/archives/*/assets/.gitkeep

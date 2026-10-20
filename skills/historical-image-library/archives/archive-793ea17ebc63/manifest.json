@@ -1,0 +1,50 @@
+{
+  "id": "archive-793ea17ebc63",
+  "name": "绿荫双马尾森系",
+  "aliases": [
+    "绿荫双马尾森系"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/530ab0fb-3173-491b-9cc9-8769d54814fe.md",
+      "sha256": "db6cfbea13c98b7f2f1ba7db39ca2f0816ae0e3ccc78b195c0b71a019574287b",
+      "source_message_id": "530ab0fb-3173-491b-9cc9-8769d54814fe"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 48,
+      "image_file": "assets/6ea9d982f707c078a26e.png",
+      "image_sha256": "6ea9d982f707c078a26e34992d57b08615bf6838f758c444987f473acc1e742f",
+      "original_download_name": "阳光绿叶间的清新少女肖像.png",
+      "source_document": "references/530ab0fb-3173-491b-9cc9-8769d54814fe.md",
+      "source_message_id": "530ab0fb-3173-491b-9cc9-8769d54814fe",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "绿色吊带、双马尾、大片绿叶、举手触叶、半身",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 49,
+      "image_file": "assets/33e0184da75420b2395d.png",
+      "image_sha256": "33e0184da75420b2395d4632c971d8f6393a04aa98a08be6585cb42ea9ff7740",
+      "original_download_name": "阳光绿叶间的夏日少女.png",
+      "source_document": "references/530ab0fb-3173-491b-9cc9-8769d54814fe.md",
+      "source_message_id": "530ab0fb-3173-491b-9cc9-8769d54814fe",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "绿色吊带、双马尾、大片绿叶、举手触叶、半身",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

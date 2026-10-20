@@ -1,0 +1,128 @@
+{
+  "id": "archive-898455c4f7bf",
+  "name": "林荫氧气感黑发少女",
+  "aliases": [
+    "林荫氧气感黑发少女"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "sha256": "3e92310d4fe2aa042b06c9e5659dd70d0002edeafdbdd19306a908c15cc082d4",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 106,
+      "image_file": "assets/22e9659c0498d209ec81.jpg",
+      "image_sha256": "22e9659c0498d209ec81554b927c7bfb300028fbfa4996d1cec74e88eb18844a",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_35.jpg",
+      "source_document": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第二张原文逐图反推；其他样本对应Skill共性，不套用姿势",
+      "evidence": "浅绿吊带裙、黑长发、树荫斑驳、低饱和、疏离表情；包含同画面重复文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 107,
+      "image_file": "assets/16cb834a78c5bf920a55.jpg",
+      "image_sha256": "16cb834a78c5bf920a5532e36ed8ca9fd585a6a846893cad960ac7525663e86a",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_40.jpg",
+      "source_document": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第二张原文逐图反推；其他样本对应Skill共性，不套用姿势",
+      "evidence": "浅绿吊带裙、黑长发、树荫斑驳、低饱和、疏离表情；包含同画面重复文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 108,
+      "image_file": "assets/bf070432c85b9495aa8f.jpg",
+      "image_sha256": "bf070432c85b9495aa8f5781bbe4fb636740512fa1ccb5c73f99f52b23728d15",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_43.jpg",
+      "source_document": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第二张原文逐图反推；其他样本对应Skill共性，不套用姿势",
+      "evidence": "浅绿吊带裙、黑长发、树荫斑驳、低饱和、疏离表情；包含同画面重复文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 109,
+      "image_file": "assets/94ebe122774a9455c75b.jpg",
+      "image_sha256": "94ebe122774a9455c75beaa7e89eb488cc9133f60981ab1398ac505b2c8abf37",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_47.jpg",
+      "source_document": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第二张原文逐图反推；其他样本对应Skill共性，不套用姿势",
+      "evidence": "浅绿吊带裙、黑长发、树荫斑驳、低饱和、疏离表情；包含同画面重复文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 110,
+      "image_file": "assets/94ebe122774a9455c75b.jpg",
+      "image_sha256": "94ebe122774a9455c75beaa7e89eb488cc9133f60981ab1398ac505b2c8abf37",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_50.jpg",
+      "source_document": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第二张原文逐图反推；其他样本对应Skill共性，不套用姿势",
+      "evidence": "浅绿吊带裙、黑长发、树荫斑驳、低饱和、疏离表情；包含同画面重复文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 111,
+      "image_file": "assets/934479e07d4fbb482db7.jpg",
+      "image_sha256": "934479e07d4fbb482db70a4a27ea7f0bad2c5271be5da12b3ee7eb7b402f89ca",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_54.jpg",
+      "source_document": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第二张原文逐图反推；其他样本对应Skill共性，不套用姿势",
+      "evidence": "浅绿吊带裙、黑长发、树荫斑驳、低饱和、疏离表情；包含同画面重复文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 112,
+      "image_file": "assets/654c5c2ea52ddc7b7a72.jpg",
+      "image_sha256": "654c5c2ea52ddc7b7a720b8790ff80206ef29446e4f21ab0eb7e5013ea0ab11c",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_01_58.jpg",
+      "source_document": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第二张原文逐图反推；其他样本对应Skill共性，不套用姿势",
+      "evidence": "浅绿吊带裙、黑长发、树荫斑驳、低饱和、疏离表情；包含同画面重复文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 113,
+      "image_file": "assets/a398df08242b9d2e561c.jpg",
+      "image_sha256": "a398df08242b9d2e561ca5d61e8afb140d210a28b2c479ac599f4c01ca313f5e",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_02_02.jpg",
+      "source_document": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+      "source_message_id": "a16fe54f-1b1e-4265-a308-a1614db9cbc2",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第二张原文逐图反推；其他样本对应Skill共性，不套用姿势",
+      "evidence": "浅绿吊带裙、黑长发、树荫斑驳、低饱和、疏离表情；包含同画面重复文件",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 7,
+  "image_records": 8,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

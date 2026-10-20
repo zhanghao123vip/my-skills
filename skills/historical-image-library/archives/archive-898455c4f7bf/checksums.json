@@ -1,0 +1,52 @@
+[
+  {
+    "file": "manifest.json",
+    "bytes": 7209,
+    "sha256": "4c3fb14e4c12be866658c56442688a0c220a789a5dd5a3c2adca466e553beef4"
+  },
+  {
+    "file": "SKILL.md",
+    "bytes": 659,
+    "sha256": "4d05990afaaef16250dd7dd15c5eb74b4fa4e71d53d40a068dde4164e2a3ef64"
+  },
+  {
+    "file": "assets/16cb834a78c5bf920a55.jpg",
+    "bytes": 227302,
+    "sha256": "16cb834a78c5bf920a5532e36ed8ca9fd585a6a846893cad960ac7525663e86a"
+  },
+  {
+    "file": "assets/22e9659c0498d209ec81.jpg",
+    "bytes": 261819,
+    "sha256": "22e9659c0498d209ec81554b927c7bfb300028fbfa4996d1cec74e88eb18844a"
+  },
+  {
+    "file": "assets/654c5c2ea52ddc7b7a72.jpg",
+    "bytes": 250141,
+    "sha256": "654c5c2ea52ddc7b7a720b8790ff80206ef29446e4f21ab0eb7e5013ea0ab11c"
+  },
+  {
+    "file": "assets/934479e07d4fbb482db7.jpg",
+    "bytes": 269924,
+    "sha256": "934479e07d4fbb482db70a4a27ea7f0bad2c5271be5da12b3ee7eb7b402f89ca"
+  },
+  {
+    "file": "assets/94ebe122774a9455c75b.jpg",
+    "bytes": 255188,
+    "sha256": "94ebe122774a9455c75beaa7e89eb488cc9133f60981ab1398ac505b2c8abf37"
+  },
+  {
+    "file": "assets/a398df08242b9d2e561c.jpg",
+    "bytes": 259680,
+    "sha256": "a398df08242b9d2e561ca5d61e8afb140d210a28b2c479ac599f4c01ca313f5e"
+  },
+  {
+    "file": "assets/bf070432c85b9495aa8f.jpg",
+    "bytes": 253932,
+    "sha256": "bf070432c85b9495aa8f5781bbe4fb636740512fa1ccb5c73f99f52b23728d15"
+  },
+  {
+    "file": "references/a16fe54f-1b1e-4265-a308-a1614db9cbc2.md",
+    "bytes": 7288,
+    "sha256": "3e92310d4fe2aa042b06c9e5659dd70d0002edeafdbdd19306a908c15cc082d4"
+  }
+]

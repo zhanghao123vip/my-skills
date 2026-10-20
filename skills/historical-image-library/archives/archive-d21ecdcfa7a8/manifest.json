@@ -1,0 +1,54 @@
+{
+  "id": "archive-d21ecdcfa7a8",
+  "name": "便利店与超市取货系列",
+  "aliases": [
+    "便利店与超市取货系列"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/a18a50a2-c7a9-4d0b-84e5-b8156c81e2f3.md",
+      "sha256": "475ba1299a8c21f3483b2aaa4b568dd09c5bf6b6ddd20ffd278d2d78440ff4ea",
+      "source_message_id": "a18a50a2-c7a9-4d0b-84e5-b8156c81e2f3"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 9,
+      "image_file": "assets/5a64cdf75b0990236a04.png",
+      "image_sha256": "5a64cdf75b0990236a0490746199aac0ffc0b40c8384d6fd1ce272941725bb86",
+      "original_download_name": "超市饮料 aisle 购物瞬间.png",
+      "source_document": "references/a18a50a2-c7a9-4d0b-84e5-b8156c81e2f3.md",
+      "source_message_id": "a18a50a2-c7a9-4d0b-84e5-b8156c81e2f3",
+      "association_level": "visual_group_or_template",
+      "association_scope": "共同人物和动作母版；场景变体不冒充原参考",
+      "evidence": "高马尾、粉白吊带裙、货架取货与回眸",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-014-日系便利店双图\\generated01.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 10,
+      "image_file": "assets/455ec55124b90a405515.png",
+      "image_sha256": "455ec55124b90a405515a62d666416791edff2f65760cf0153c837371c256bb7",
+      "original_download_name": "超市饮品架旁的购物时光.png",
+      "source_document": "references/a18a50a2-c7a9-4d0b-84e5-b8156c81e2f3.md",
+      "source_message_id": "a18a50a2-c7a9-4d0b-84e5-b8156c81e2f3",
+      "association_level": "visual_group_or_template",
+      "association_scope": "共同人物和动作母版；场景变体不冒充原参考",
+      "evidence": "高马尾、粉白吊带裙、货架取货与回眸",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-014-日系便利店双图\\generated02.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

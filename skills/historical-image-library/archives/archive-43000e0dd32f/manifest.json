@@ -1,0 +1,50 @@
+{
+  "id": "archive-43000e0dd32f",
+  "name": "海边九宫格自拍",
+  "aliases": [
+    "海边九宫格自拍"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/e0fe5fde-1b2d-4311-9a3e-62b6d93ae8c9.md",
+      "sha256": "b9198b7da60c0de6658450b81984961c51e728ca4ba9625ed84d852b97eb6985",
+      "source_message_id": "e0fe5fde-1b2d-4311-9a3e-62b6d93ae8c9"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 17,
+      "image_file": "assets/cb5bc31708b2b627f9ed.png",
+      "image_sha256": "cb5bc31708b2b627f9eddf744e165fae93b6269697ac01e335fc466e9640cf76",
+      "original_download_name": "海边九宫格浪花自拍.png",
+      "source_document": "references/e0fe5fde-1b2d-4311-9a3e-62b6d93ae8c9.md",
+      "source_message_id": "e0fe5fde-1b2d-4311-9a3e-62b6d93ae8c9",
+      "association_level": "visual_group_or_template",
+      "association_scope": "17对应九宫格结构；46只对应同系列画面",
+      "evidence": "绿色白花泳装、手机自拍、海浪湿发；17是九宫格，46是单幅",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 46,
+      "image_file": "assets/09b3b706477631854aed.png",
+      "image_sha256": "09b3b706477631854aed9d41aee3f92e84d7ad3649f729d15719c39710ddaf8a",
+      "original_download_name": "阳光海边清凉自拍.png",
+      "source_document": "references/e0fe5fde-1b2d-4311-9a3e-62b6d93ae8c9.md",
+      "source_message_id": "e0fe5fde-1b2d-4311-9a3e-62b6d93ae8c9",
+      "association_level": "visual_group_or_template",
+      "association_scope": "17对应九宫格结构；46只对应同系列画面",
+      "evidence": "绿色白花泳装、手机自拍、海浪湿发；17是九宫格，46是单幅",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

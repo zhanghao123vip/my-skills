@@ -1,0 +1,84 @@
+{
+  "id": "archive-1b5b384484cc",
+  "name": "粉衬衫湖边抓拍系列",
+  "aliases": [
+    "粉衬衫湖边抓拍系列"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/c21b784a-2cd9-4144-85ac-e3c11aacf7ef.md",
+      "sha256": "9e4d5133bd0ab3c25cfc2fa7e2d1b06e73b9452c0f0cf1894056a51b0eb56b2c",
+      "source_message_id": "c21b784a-2cd9-4144-85ac-e3c11aacf7ef"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 32,
+      "image_file": "assets/248c8cc4b19241d7535d.png",
+      "image_sha256": "248c8cc4b19241d7535d675ac6c97206a8ed04d8a770b289a9c2725c88f2b719",
+      "original_download_name": "暖灯咖啡馆里的粉色饮品女孩.png",
+      "source_document": "references/c21b784a-2cd9-4144-85ac-e3c11aacf7ef.md",
+      "source_message_id": "c21b784a-2cd9-4144-85ac-e3c11aacf7ef",
+      "association_level": "visual_group_or_template",
+      "association_scope": "母版与场景变体分别标识",
+      "evidence": "粉衬衫、白内搭、菱格包、饮料；45湖边，其余为场景变体",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-010-粉衬衫湖边抓拍\\generated02.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 45,
+      "image_file": "assets/90f3bee4579a210ea275.png",
+      "image_sha256": "90f3bee4579a210ea2759c69558c889195ba7dcce98f78b110fbf050ab0b2c60",
+      "original_download_name": "阳光公园里的夏日微笑.png",
+      "source_document": "references/c21b784a-2cd9-4144-85ac-e3c11aacf7ef.md",
+      "source_message_id": "c21b784a-2cd9-4144-85ac-e3c11aacf7ef",
+      "association_level": "visual_group_or_template",
+      "association_scope": "母版与场景变体分别标识",
+      "evidence": "粉衬衫、白内搭、菱格包、饮料；45湖边，其余为场景变体",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-010-粉衬衫湖边抓拍\\generated01.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 52,
+      "image_file": "assets/62e9f8af1ea3eecb5f4b.png",
+      "image_sha256": "62e9f8af1ea3eecb5f4be25c6bebcdb729151164210649c22a55cf9d3ce12b1b",
+      "original_download_name": "夜色街灯下的草莓饮品微笑女孩.png",
+      "source_document": "references/c21b784a-2cd9-4144-85ac-e3c11aacf7ef.md",
+      "source_message_id": "c21b784a-2cd9-4144-85ac-e3c11aacf7ef",
+      "association_level": "visual_group_or_template",
+      "association_scope": "母版与场景变体分别标识",
+      "evidence": "粉衬衫、白内搭、菱格包、饮料；45湖边，其余为场景变体",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-010-粉衬衫湖边抓拍\\generated04.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 53,
+      "image_file": "assets/096d95ecf5c39e779d04.png",
+      "image_sha256": "096d95ecf5c39e779d043518b3b3a6674f756c0878aa3c30e15b7540249f24a4",
+      "original_download_name": "夜色街巷里的粉色微笑.png",
+      "source_document": "references/c21b784a-2cd9-4144-85ac-e3c11aacf7ef.md",
+      "source_message_id": "c21b784a-2cd9-4144-85ac-e3c11aacf7ef",
+      "association_level": "visual_group_or_template",
+      "association_scope": "母版与场景变体分别标识",
+      "evidence": "粉衬衫、白内搭、菱格包、饮料；45湖边，其余为场景变体",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-010-粉衬衫湖边抓拍\\generated03.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 4,
+  "image_records": 4,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

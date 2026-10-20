@@ -1,0 +1,63 @@
+{
+  "id": "archive-f3f545250cb2",
+  "name": "东方华宴寝殿美人",
+  "aliases": [
+    "东方华宴寝殿美人"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/8c62136e-9fce-4767-96f9-d1cc6222bb99.md",
+      "sha256": "23d498b7b345887f3cc451225901c8a31cefe1ffaecab59d2116db3498c0c891",
+      "source_message_id": "8c62136e-9fce-4767-96f9-d1cc6222bb99"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 19,
+      "image_file": "assets/b0f1f6b30cbd3c662576.png",
+      "image_sha256": "b0f1f6b30cbd3c66257689de1ee439b60677291129ed4fb668b5ed816692a419",
+      "original_download_name": "红金宫灯下的凤冠新娘.png",
+      "source_document": "references/8c62136e-9fce-4767-96f9-d1cc6222bb99.md",
+      "source_message_id": "8c62136e-9fce-4767-96f9-d1cc6222bb99",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill不同配色；完整原文具体版本不混同",
+      "evidence": "暖红寝殿、繁复金饰、宫廷坐姿、红色及墨绿服饰",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 54,
+      "image_file": "assets/2524682540c8ccbfd5e0.png",
+      "image_sha256": "2524682540c8ccbfd5e0bd3bce68b579b42135b9c217134e030963bde6c39486",
+      "original_download_name": "月下红帐金饰美人.png",
+      "source_document": "references/8c62136e-9fce-4767-96f9-d1cc6222bb99.md",
+      "source_message_id": "8c62136e-9fce-4767-96f9-d1cc6222bb99",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill不同配色；完整原文具体版本不混同",
+      "evidence": "暖红寝殿、繁复金饰、宫廷坐姿、红色及墨绿服饰",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 55,
+      "image_file": "assets/a1334aefbfdf7d032a13.png",
+      "image_sha256": "a1334aefbfdf7d032a132aea7563a414bc0b75b197cffe02a7f1307d8e782e52",
+      "original_download_name": "月下红妆闺阁夜.png",
+      "source_document": "references/8c62136e-9fce-4767-96f9-d1cc6222bb99.md",
+      "source_message_id": "8c62136e-9fce-4767-96f9-d1cc6222bb99",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill不同配色；完整原文具体版本不混同",
+      "evidence": "暖红寝殿、繁复金饰、宫廷坐姿、红色及墨绿服饰",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 3,
+  "image_records": 3,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

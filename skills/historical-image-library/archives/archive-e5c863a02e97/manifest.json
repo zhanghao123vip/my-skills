@@ -1,0 +1,54 @@
+{
+  "id": "archive-e5c863a02e97",
+  "name": "会员制超市双图",
+  "aliases": [
+    "会员制超市双图"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/a6f3feb0-5cd8-4801-aa1b-1a348544efe9.md",
+      "sha256": "99f47f42fef7588c6df39801cd5f49c73a812deab44a22415fb6011b50bef02e",
+      "source_message_id": "a6f3feb0-5cd8-4801-aa1b-1a348544efe9"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 5,
+      "image_file": "assets/69b3e3845939b06f0b5b.png",
+      "image_sha256": "69b3e3845939b06f0b5b7342900eae0865a040d5ff32d6062b49370f6b911ecf",
+      "original_download_name": "仓储酒行里的威士忌展示.png",
+      "source_document": "references/a6f3feb0-5cd8-4801-aa1b-1a348544efe9.md",
+      "source_message_id": "a6f3feb0-5cd8-4801-aa1b-1a348544efe9",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "酒区蹲姿举酒瓶与烘焙冷柜侧身，米色开衫、黑裙、黑鞋",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-017-会员制超市双图\\generated01.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 6,
+      "image_file": "assets/bb3ceb4ce2f002c67977.png",
+      "image_sha256": "bb3ceb4ce2f002c67977b4cf8bc8e485c25472874eb511f0fcc5d4dd9c96af53",
+      "original_download_name": "超市烘焙区挑选甜点.png",
+      "source_document": "references/a6f3feb0-5cd8-4801-aa1b-1a348544efe9.md",
+      "source_message_id": "a6f3feb0-5cd8-4801-aa1b-1a348544efe9",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "酒区蹲姿举酒瓶与烘焙冷柜侧身，米色开衫、黑裙、黑鞋",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-017-会员制超市双图\\generated02.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

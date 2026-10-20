@@ -1,0 +1,39 @@
+{
+  "id": "archive-ec9219790e09",
+  "name": "中国超市蹲下挑商品",
+  "aliases": [
+    "中国超市蹲下挑商品"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/f64aa50c-40f9-4760-a29c-3db9e05342d1.md",
+      "sha256": "6716589628eb6f925a0e781fa2b492d2e73dd145bf19e15bfaa2cc5d9f2f57b6",
+      "source_message_id": "f64aa50c-40f9-4760-a29c-3db9e05342d1"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 8,
+      "image_file": "assets/a1af578c4e06ea2392b5.png",
+      "image_sha256": "a1af578c4e06ea2392b54aee5c23b4c817d5b3de1b8e4a3f902cdf64ca7aca41",
+      "original_download_name": "超市零食货架前的温柔微笑.png",
+      "source_document": "references/f64aa50c-40f9-4760-a29c-3db9e05342d1.md",
+      "source_message_id": "f64aa50c-40f9-4760-a29c-3db9e05342d1",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "同一粉白裙、高马尾、侧前方蹲姿、货架挑商品",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-014-日系便利店双图\\generated04.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

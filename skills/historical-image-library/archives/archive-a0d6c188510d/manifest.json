@@ -1,0 +1,76 @@
+{
+  "id": "archive-a0d6c188510d",
+  "name": "风吹雏菊氧气少女",
+  "aliases": [
+    "风吹雏菊氧气少女"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/807baf20-1996-4a0a-860c-99872b085df4.md",
+      "sha256": "357eabb3a68d5df0e5cd8b75f205a5ee866c4ab171636818d6f88b9cea82d100",
+      "source_message_id": "807baf20-1996-4a0a-860c-99872b085df4"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 114,
+      "image_file": "assets/8e10387cd40be8eafebb.jpg",
+      "image_sha256": "8e10387cd40be8eafebb7396bf8b3a2f99e68b744d243ec1cdee11445c23d768",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_02_12.jpg",
+      "source_document": "references/807baf20-1996-4a0a-860c-99872b085df4.md",
+      "source_message_id": "807baf20-1996-4a0a-860c-99872b085df4",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第一张对应逐图反推，其余同组动作变体",
+      "evidence": "短发、白毛衣、怀抱雏菊、户外风吹、奶油柔光",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 115,
+      "image_file": "assets/0906cf58b400e3f03f0d.jpg",
+      "image_sha256": "0906cf58b400e3f03f0d36e8096c0519dc1c8e3b8d3b6455b70b09cee552a371",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_02_17.jpg",
+      "source_document": "references/807baf20-1996-4a0a-860c-99872b085df4.md",
+      "source_message_id": "807baf20-1996-4a0a-860c-99872b085df4",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第一张对应逐图反推，其余同组动作变体",
+      "evidence": "短发、白毛衣、怀抱雏菊、户外风吹、奶油柔光",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 116,
+      "image_file": "assets/9fd4329ce2600f6a67d0.jpg",
+      "image_sha256": "9fd4329ce2600f6a67d0f8f295633d31eb1505324ce7fd464f1f739eae836ac7",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_02_21.jpg",
+      "source_document": "references/807baf20-1996-4a0a-860c-99872b085df4.md",
+      "source_message_id": "807baf20-1996-4a0a-860c-99872b085df4",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第一张对应逐图反推，其余同组动作变体",
+      "evidence": "短发、白毛衣、怀抱雏菊、户外风吹、奶油柔光",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 117,
+      "image_file": "assets/28b5163e14a3e7ee3809.jpg",
+      "image_sha256": "28b5163e14a3e7ee38097b00f4d86e460e77af22abe86ce02a99c4226a9f7a9e",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 21_02_25.jpg",
+      "source_document": "references/807baf20-1996-4a0a-860c-99872b085df4.md",
+      "source_message_id": "807baf20-1996-4a0a-860c-99872b085df4",
+      "association_level": "visual_group_or_template",
+      "association_scope": "第一张对应逐图反推，其余同组动作变体",
+      "evidence": "短发、白毛衣、怀抱雏菊、户外风吹、奶油柔光",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 4,
+  "image_records": 4,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

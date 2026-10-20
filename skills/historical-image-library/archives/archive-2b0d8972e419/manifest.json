@@ -1,0 +1,37 @@
+{
+  "id": "archive-2b0d8972e419",
+  "name": "现代高定黑银钻石九宫格",
+  "aliases": [
+    "现代高定黑银钻石九宫格"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/b3344119-ccd3-4217-bb55-85a77ca00a74.md",
+      "sha256": "4984103cfd8932d603195592f087002937045d072e6773df12072c62f262ba2b",
+      "source_message_id": "b3344119-ccd3-4217-bb55-85a77ca00a74"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 40,
+      "image_file": "assets/1ec4a18b265aa9345132.png",
+      "image_sha256": "1ec4a18b265aa93451324282f9d974cc385f3db511fabdc72e0deae2e47f9e8c",
+      "original_download_name": "奢华高定礼服试穿九宫格.png",
+      "source_document": "references/b3344119-ccd3-4217-bb55-85a77ca00a74.md",
+      "source_message_id": "b3344119-ccd3-4217-bb55-85a77ca00a74",
+      "association_level": "visual_group_or_template",
+      "association_scope": "现代高定母版的黑银城市变体",
+      "evidence": "黑银水晶礼服、同人物九格、城市豪宅",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

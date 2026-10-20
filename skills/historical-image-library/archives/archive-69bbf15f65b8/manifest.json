@@ -1,0 +1,89 @@
+{
+  "id": "archive-69bbf15f65b8",
+  "name": "月华白羽仙姬",
+  "aliases": [
+    "月华白羽仙姬"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/e010d23e-c8b4-4bba-9f7f-e24ea3006b14.md",
+      "sha256": "f0440ecfbab7fba811ef82f4b23e085011dccf274c6c478fcf629b7fc1c22056",
+      "source_message_id": "e010d23e-c8b4-4bba-9f7f-e24ea3006b14"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 78,
+      "image_file": "assets/3215e335a6a6196aa52b.jpg",
+      "image_sha256": "3215e335a6a6196aa52b7702912e61753b410f31d4e97dbb64ceba5fda59625a",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_58_12.jpg",
+      "source_document": "references/e010d23e-c8b4-4bba-9f7f-e24ea3006b14.md",
+      "source_message_id": "e010d23e-c8b4-4bba-9f7f-e24ea3006b14",
+      "association_level": "visual_group_or_template",
+      "association_scope": "Skill参考组对应；原文仅第一张逐图反推",
+      "evidence": "满月、白羽珍珠仙裙、黑发高髻、金簪、月下近景与全身",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 79,
+      "image_file": "assets/8f41fac38834ff9b17a3.jpg",
+      "image_sha256": "8f41fac38834ff9b17a3e37792915eb5b66f623b056af504560b4bdaef828014",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_58_18.jpg",
+      "source_document": "references/e010d23e-c8b4-4bba-9f7f-e24ea3006b14.md",
+      "source_message_id": "e010d23e-c8b4-4bba-9f7f-e24ea3006b14",
+      "association_level": "visual_group_or_template",
+      "association_scope": "Skill参考组对应；原文仅第一张逐图反推",
+      "evidence": "满月、白羽珍珠仙裙、黑发高髻、金簪、月下近景与全身",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 80,
+      "image_file": "assets/98ac738fdca6e8e0f475.jpg",
+      "image_sha256": "98ac738fdca6e8e0f4758f9104bedd91e0fc7cd62a9ff932afe493042456ea0b",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_58_22.jpg",
+      "source_document": "references/e010d23e-c8b4-4bba-9f7f-e24ea3006b14.md",
+      "source_message_id": "e010d23e-c8b4-4bba-9f7f-e24ea3006b14",
+      "association_level": "visual_group_or_template",
+      "association_scope": "Skill参考组对应；原文仅第一张逐图反推",
+      "evidence": "满月、白羽珍珠仙裙、黑发高髻、金簪、月下近景与全身",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 81,
+      "image_file": "assets/2e2866d79a25bb1006a5.jpg",
+      "image_sha256": "2e2866d79a25bb1006a5dd1877717f5802f4a15927bf0ba26cfbe3ad5bfe50f2",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_58_28.jpg",
+      "source_document": "references/e010d23e-c8b4-4bba-9f7f-e24ea3006b14.md",
+      "source_message_id": "e010d23e-c8b4-4bba-9f7f-e24ea3006b14",
+      "association_level": "visual_group_or_template",
+      "association_scope": "Skill参考组对应；原文仅第一张逐图反推",
+      "evidence": "满月、白羽珍珠仙裙、黑发高髻、金簪、月下近景与全身",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 82,
+      "image_file": "assets/53f08a660535b307e30b.jpg",
+      "image_sha256": "53f08a660535b307e30bd43602c87e56b8b7a1043919f0a3efb8c289e9e01557",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_58_32.jpg",
+      "source_document": "references/e010d23e-c8b4-4bba-9f7f-e24ea3006b14.md",
+      "source_message_id": "e010d23e-c8b4-4bba-9f7f-e24ea3006b14",
+      "association_level": "visual_group_or_template",
+      "association_scope": "Skill参考组对应；原文仅第一张逐图反推",
+      "evidence": "满月、白羽珍珠仙裙、黑发高髻、金簪、月下近景与全身",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 5,
+  "image_records": 5,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

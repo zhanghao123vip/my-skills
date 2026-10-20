@@ -1,0 +1,40 @@
+{
+  "id": "archive-cc3c8cfb2068",
+  "name": "东方古风溪边正脸",
+  "aliases": [
+    "东方古风溪边正脸"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/6bf436da-b643-4e60-817b-e79094cf7290.md",
+      "sha256": "737b3892ffed22a02e58a61e2f164f88faf06310e7775a699d1255efc434b7aa",
+      "source_message_id": "6bf436da-b643-4e60-817b-e79094cf7290"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 43,
+      "image_file": "assets/c1179ebb3794cccfa919.png",
+      "image_sha256": "c1179ebb3794cccfa9195851efa4ae3e3db54102965485aee306cd60368d7bae",
+      "original_download_name": "溪畔薄雾汉服佳人.png",
+      "source_document": "references/6bf436da-b643-4e60-817b-e79094cf7290.md",
+      "source_message_id": "6bf436da-b643-4e60-817b-e79094cf7290",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "溪边正脸坐姿、浅青白汉服、右侧篮筐、清晨逆光",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-016-东方古风电影美女首组三图\\generated05-front.png",
+        "独立Skill包\\oriental-cinema\\assets\\generated05-front.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 1,
+  "image_records": 1,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

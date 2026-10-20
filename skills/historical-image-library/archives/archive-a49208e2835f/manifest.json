@@ -1,0 +1,54 @@
+{
+  "id": "archive-a49208e2835f",
+  "name": "中国超市背面回眸",
+  "aliases": [
+    "中国超市背面回眸"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/726baaa5-4d3d-4f8d-b801-2faed67533b7.md",
+      "sha256": "7d020144c64f267b66ccd7a864bec6c809ed68b0788208ae2b0a90b3a4d8826b",
+      "source_message_id": "726baaa5-4d3d-4f8d-b801-2faed67533b7"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 7,
+      "image_file": "assets/f0abac9740bcd7227578.png",
+      "image_sha256": "f0abac9740bcd7227578f8b332e484ed554f9f1ab3b99e320e9940ec0b4b8b70",
+      "original_download_name": "超市货架间的回眸少女.png",
+      "source_document": "references/726baaa5-4d3d-4f8d-b801-2faed67533b7.md",
+      "source_message_id": "726baaa5-4d3d-4f8d-b801-2faed67533b7",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同动作版本对应，优先哈希确定历史成品",
+      "evidence": "粉白吊带连衣裙、高马尾、背面回眸、超市货架；两张不同成品",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-014-日系便利店双图\\generated03.png"
+      ],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 20,
+      "image_file": "assets/16b58d4e9f008b42ed9c.png",
+      "image_sha256": "16b58d4e9f008b42ed9cdd608fb4c0d84a68413c35e41c10408167ac21608f7a",
+      "original_download_name": "回眸超市购物时光.png",
+      "source_document": "references/726baaa5-4d3d-4f8d-b801-2faed67533b7.md",
+      "source_message_id": "726baaa5-4d3d-4f8d-b801-2faed67533b7",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同动作版本对应，优先哈希确定历史成品",
+      "evidence": "粉白吊带连衣裙、高马尾、背面回眸、超市货架；两张不同成品",
+      "exact_archive_copies": [
+        "历史图文核对\\顺序核对-014-日系便利店双图\\generated05.png"
+      ],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "archive-87e504bea217",
+  "name": "俯拍吹手心",
+  "aliases": [
+    "俯拍吹手心"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/5bd15577-a90a-4581-9654-ea6c2779b648.md",
+      "sha256": "acb80f2e4663fe94cd17b9861060be15754bf97ba6dc5bee3bffe562351fab49",
+      "source_message_id": "5bd15577-a90a-4581-9654-ea6c2779b648"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 34,
+      "image_file": "assets/8915b0d126328befabe0.png",
+      "image_sha256": "8915b0d126328befabe0264bb88572b0e49c4d0458dfe5be18969a9be1c3985d",
+      "original_download_name": "暖屋里俏皮飞吻少女.png",
+      "source_document": "references/5bd15577-a90a-4581-9654-ea6c2779b648.md",
+      "source_message_id": "5bd15577-a90a-4581-9654-ea6c2779b648",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同动作母版，穿搭不同不冒充完全相同原图",
+      "evidence": "俯拍、鼓嘴、手掌靠嘴向前伸、直闪室内",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 37,
+      "image_file": "assets/086559fd5ae408100d45.png",
+      "image_sha256": "086559fd5ae408100d45d1a42cbaf92dc7db1dd7e11d475733c0721a1594e9c0",
+      "original_download_name": "俏皮一吻，温馨家居肖像.png",
+      "source_document": "references/5bd15577-a90a-4581-9654-ea6c2779b648.md",
+      "source_message_id": "5bd15577-a90a-4581-9654-ea6c2779b648",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同动作母版，穿搭不同不冒充完全相同原图",
+      "evidence": "俯拍、鼓嘴、手掌靠嘴向前伸、直闪室内",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 38,
+      "image_file": "assets/a59576bbac7b44ea7dd5.png",
+      "image_sha256": "a59576bbac7b44ea7dd5fb0d04e73a31be88937aea5737b6e128a234d8a68298",
+      "original_download_name": "闪光灯下的俏皮花卉自拍.png",
+      "source_document": "references/5bd15577-a90a-4581-9654-ea6c2779b648.md",
+      "source_message_id": "5bd15577-a90a-4581-9654-ea6c2779b648",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同动作母版，穿搭不同不冒充完全相同原图",
+      "evidence": "俯拍、鼓嘴、手掌靠嘴向前伸、直闪室内",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 3,
+  "image_records": 3,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "archive-38377fa43c5d",
+  "name": "极简蕾丝近景人像",
+  "aliases": [
+    "极简蕾丝近景人像"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/67bf52c5-be82-4c16-a4d2-f696f7dba9dc.md",
+      "sha256": "3d94cb61d5a4342ee3713673fec0b7ba929d8d48ffbf60506073c3e0106e0051",
+      "source_message_id": "67bf52c5-be82-4c16-a4d2-f696f7dba9dc"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 21,
+      "image_file": "assets/187d62335b5617a6cd8c.png",
+      "image_sha256": "187d62335b5617a6cd8c0a2056fa7135042b042cbc7b339ccfd81879d86e85ea",
+      "original_download_name": "回眸的蕾丝少女.png",
+      "source_document": "references/67bf52c5-be82-4c16-a4d2-f696f7dba9dc.md",
+      "source_message_id": "67bf52c5-be82-4c16-a4d2-f696f7dba9dc",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同类摄影母版，不等同已证实原消息附件",
+      "evidence": "极简浅灰白背景、松散碎发、白色蕾丝、侧身回眸",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 22,
+      "image_file": "assets/0e33142492213021dd43.png",
+      "image_sha256": "0e33142492213021dd43b7ff4068f350236deb4d1a115f11e4ea108fcc1d3ed6",
+      "original_download_name": "回眸于柔光中的蕾丝少女.png",
+      "source_document": "references/67bf52c5-be82-4c16-a4d2-f696f7dba9dc.md",
+      "source_message_id": "67bf52c5-be82-4c16-a4d2-f696f7dba9dc",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同类摄影母版，不等同已证实原消息附件",
+      "evidence": "极简浅灰白背景、松散碎发、白色蕾丝、侧身回眸",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 30,
+      "image_file": "assets/458f2b2343ef50093a50.png",
+      "image_sha256": "458f2b2343ef50093a50f49eaa7b53a4f093357a1e3dbb92094abee872939c88",
+      "original_download_name": "朦胧蕾丝中的温柔凝望.png",
+      "source_document": "references/67bf52c5-be82-4c16-a4d2-f696f7dba9dc.md",
+      "source_message_id": "67bf52c5-be82-4c16-a4d2-f696f7dba9dc",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同类摄影母版，不等同已证实原消息附件",
+      "evidence": "极简浅灰白背景、松散碎发、白色蕾丝、侧身回眸",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 3,
+  "image_records": 3,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

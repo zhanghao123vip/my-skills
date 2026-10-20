@@ -1,0 +1,72 @@
+[
+  {
+    "file": "manifest.json",
+    "bytes": 9291,
+    "sha256": "0d97234c9ff8c56bf55d02c9572ad75a370da9c7752003bdcb7df785b01cf73e"
+  },
+  {
+    "file": "SKILL.md",
+    "bytes": 641,
+    "sha256": "02d8d52cb5f203c743ff1d714e767e55445de43891a1a8729c6c363007aeea51"
+  },
+  {
+    "file": "assets/1c7e2ae2e3d61b15c28a.jpg",
+    "bytes": 501582,
+    "sha256": "1c7e2ae2e3d61b15c28a761f8154c44bbc99de9fc683c3fb8a9808a67c0df0a6"
+  },
+  {
+    "file": "assets/2fc6e1d782a0ec2ee952.jpg",
+    "bytes": 452543,
+    "sha256": "2fc6e1d782a0ec2ee9521907acf383c465a11c487b55cb19c099de375aa75118"
+  },
+  {
+    "file": "assets/498f68549aad053ce422.jpg",
+    "bytes": 362449,
+    "sha256": "498f68549aad053ce4220222a763e7b0ed59e60fe0a7433304459b29406cdbb0"
+  },
+  {
+    "file": "assets/6506ab0e9ee658f25bd4.jpg",
+    "bytes": 405007,
+    "sha256": "6506ab0e9ee658f25bd49bd257ea2f595077c7b2dc02c72ff445a9f1816f1e22"
+  },
+  {
+    "file": "assets/8ddf3f0c5cb2558a67ab.jpg",
+    "bytes": 500984,
+    "sha256": "8ddf3f0c5cb2558a67ab52eedaf2a7f266ce5ddfe1c5ab26a08681e39348eaa6"
+  },
+  {
+    "file": "assets/8e875faf09eddf5f2dd1.png",
+    "bytes": 2831207,
+    "sha256": "8e875faf09eddf5f2dd1dd48048c1d2a40331f5c1dd548c91059d0cf0a8aca23"
+  },
+  {
+    "file": "assets/cf219cd379b6e17c140f.jpg",
+    "bytes": 517163,
+    "sha256": "cf219cd379b6e17c140fb28d3128711ce0e485175c72947f67b003aff80e7128"
+  },
+  {
+    "file": "assets/e9da21089aead541878d.jpg",
+    "bytes": 413800,
+    "sha256": "e9da21089aead541878d333fb8c46354961b68b0ca738818b409061c3473066d"
+  },
+  {
+    "file": "assets/f9b0a209110012beeb42.jpg",
+    "bytes": 416501,
+    "sha256": "f9b0a209110012beeb4250cc19c651ab3e4ee3e5f9e7266c74d316b43e23670a"
+  },
+  {
+    "file": "assets/faf5d6b04f7551513efe.png",
+    "bytes": 2554079,
+    "sha256": "faf5d6b04f7551513efe9329da0a576f68ddb1778ce73d41b6879afe7356234a"
+  },
+  {
+    "file": "assets/ff988b743b5a1ffe69ca.jpg",
+    "bytes": 461776,
+    "sha256": "ff988b743b5a1ffe69cada7f7fdc1375843439912af2a238852e4d15698c2fbb"
+  },
+  {
+    "file": "references/a4c6738d-96ce-4578-b653-43073ca4c774.md",
+    "bytes": 7230,
+    "sha256": "a9948ea5221390f414c5e501aa0d63d4f2a24263f666741af1b8d51d7eedc84a"
+  }
+]

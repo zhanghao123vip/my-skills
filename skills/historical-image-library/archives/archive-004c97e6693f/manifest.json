@@ -1,0 +1,50 @@
+{
+  "id": "archive-004c97e6693f",
+  "name": "盛夏果园清透白裙",
+  "aliases": [
+    "盛夏果园清透白裙"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/6909f799-b405-4bfb-81bb-befa593a352c.md",
+      "sha256": "5dfa7dadfcfb5f34a78a4e3aab0ddecf7139127a29f4648786a3b24264b8ef1f",
+      "source_message_id": "6909f799-b405-4bfb-81bb-befa593a352c"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 36,
+      "image_file": "assets/896d2d485d215f628bfb.png",
+      "image_sha256": "896d2d485d215f628bfb120987740b10d4dbdc2efeb0710e89a224a4d73891ad",
+      "original_download_name": "苹果树下的夏日双人像.png",
+      "source_document": "references/6909f799-b405-4bfb-81bb-befa593a352c.md",
+      "source_message_id": "6909f799-b405-4bfb-81bb-befa593a352c",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "鲜绿树冠、白裙套装、绿色水果、全身；36双联，50独立图",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 50,
+      "image_file": "assets/b06c73ab0401d02dcf63.png",
+      "image_sha256": "b06c73ab0401d02dcf6327fde68d818052d832375467fb08d4d7823f851ca688",
+      "original_download_name": "阳光树影下的绿苹果少女.png",
+      "source_document": "references/6909f799-b405-4bfb-81bb-befa593a352c.md",
+      "source_message_id": "6909f799-b405-4bfb-81bb-befa593a352c",
+      "association_level": "visual_specific",
+      "association_scope": "具体图像与原文特征对应",
+      "evidence": "鲜绿树冠、白裙套装、绿色水果、全身；36双联，50独立图",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 2,
+  "image_records": 2,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}

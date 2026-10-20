@@ -1,0 +1,102 @@
+{
+  "id": "archive-89cf06526a21",
+  "name": "雪域银凰仙姬",
+  "aliases": [
+    "雪域银凰仙姬"
+  ],
+  "package_kind": "local_material_bundle",
+  "installed_as_global_skill": true,
+  "generation_tested": false,
+  "usage": "取回原图及对应范围内的完整历史正文；不生成新图",
+  "documents": [
+    {
+      "file": "references/7805fdb9-0a1c-418f-8b48-1efd1c0f5c02.md",
+      "sha256": "d6c3c610e47496a06faf2a83d9689fccaaa4435447a12740a05ead41ecf573df",
+      "source_message_id": "7805fdb9-0a1c-418f-8b48-1efd1c0f5c02"
+    }
+  ],
+  "items": [
+    {
+      "image_number": 84,
+      "image_file": "assets/18812334ab61b2955b7e.jpg",
+      "image_sha256": "18812334ab61b2955b7e979333c278da49b6cf79d23947b3b18f91f43736124d",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_59_12.jpg",
+      "source_document": "references/7805fdb9-0a1c-418f-8b48-1efd1c0f5c02.md",
+      "source_message_id": "7805fdb9-0a1c-418f-8b48-1efd1c0f5c02",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill多样本对应；不把第一张指令冒充全部逐图反推",
+      "evidence": "银凰冠、雪山强风、飞舞披帛、各色金属薄纱",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 85,
+      "image_file": "assets/d0f9fb115fec74da674c.jpg",
+      "image_sha256": "d0f9fb115fec74da674c8982c9c65bcce086f95e114c5f62bc37088474c44d2b",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_59_17.jpg",
+      "source_document": "references/7805fdb9-0a1c-418f-8b48-1efd1c0f5c02.md",
+      "source_message_id": "7805fdb9-0a1c-418f-8b48-1efd1c0f5c02",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill多样本对应；不把第一张指令冒充全部逐图反推",
+      "evidence": "银凰冠、雪山强风、飞舞披帛、各色金属薄纱",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 86,
+      "image_file": "assets/fee0d23d70d304aa834c.jpg",
+      "image_sha256": "fee0d23d70d304aa834c059f6fa650ed4811fa245fbc61ed950073fe58409997",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_59_21.jpg",
+      "source_document": "references/7805fdb9-0a1c-418f-8b48-1efd1c0f5c02.md",
+      "source_message_id": "7805fdb9-0a1c-418f-8b48-1efd1c0f5c02",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill多样本对应；不把第一张指令冒充全部逐图反推",
+      "evidence": "银凰冠、雪山强风、飞舞披帛、各色金属薄纱",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 87,
+      "image_file": "assets/cb6a3f2ba7d37c6db633.jpg",
+      "image_sha256": "cb6a3f2ba7d37c6db633b48790382e9b09f877a568815756c15879ccffbd790a",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_59_25.jpg",
+      "source_document": "references/7805fdb9-0a1c-418f-8b48-1efd1c0f5c02.md",
+      "source_message_id": "7805fdb9-0a1c-418f-8b48-1efd1c0f5c02",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill多样本对应；不把第一张指令冒充全部逐图反推",
+      "evidence": "银凰冠、雪山强风、飞舞披帛、各色金属薄纱",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 88,
+      "image_file": "assets/f7fd058f26afa9c15eb0.jpg",
+      "image_sha256": "f7fd058f26afa9c15eb02204a00441ea1d64ef117275a7330ce26006c93b6fc8",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_59_30.jpg",
+      "source_document": "references/7805fdb9-0a1c-418f-8b48-1efd1c0f5c02.md",
+      "source_message_id": "7805fdb9-0a1c-418f-8b48-1efd1c0f5c02",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill多样本对应；不把第一张指令冒充全部逐图反推",
+      "evidence": "银凰冠、雪山强风、飞舞披帛、各色金属薄纱",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    },
+    {
+      "image_number": 89,
+      "image_file": "assets/1ce900fa8f9301701556.jpg",
+      "image_sha256": "1ce900fa8f930170155650730941911ffa3171c66e65eb2d5950e3b40b9be127",
+      "original_download_name": "ChatGPT 图像 2026年10月18日 20_59_33.jpg",
+      "source_document": "references/7805fdb9-0a1c-418f-8b48-1efd1c0f5c02.md",
+      "source_message_id": "7805fdb9-0a1c-418f-8b48-1efd1c0f5c02",
+      "association_level": "visual_group_or_template",
+      "association_scope": "同Skill多样本对应；不把第一张指令冒充全部逐图反推",
+      "evidence": "银凰冠、雪山强风、飞舞披帛、各色金属薄纱",
+      "exact_archive_copies": [],
+      "attachment_message_identity_verified": false
+    }
+  ],
+  "unique_images": 6,
+  "image_records": 6,
+  "pairing_boundary": "哈希确认文件身份；视觉对应不等于原消息附件身份。同组及模板不能冒充逐图完整指令。",
+  "installation_scope": "Codex user-level"
+}
