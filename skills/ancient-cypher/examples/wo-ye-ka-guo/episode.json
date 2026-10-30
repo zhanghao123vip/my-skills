@@ -1,0 +1,136 @@
+{
+ "title": "我也卡过",
+ "title_en": "BEEN THERE",
+ "disclaimer": "AI生成  仅供娱乐",
+ "end_card": ["这一关", "你卡在哪儿了？", "评论区说说  我们都在"],
+ "cover": {"hook": "8 个古人", "line": "把你不敢说的委屈 唱了一遍"},
+
+ "singers": {
+  "pu":    {"name": "蒲松龄", "aka": "聊斋先生", "gender": "man",
+            "desc_en": "Pu Songling, a thin Qing dynasty scholar about 50, grey-streaked goatee, black round skullcap, long braided queue, faded navy blue long gown with a worn black vest"},
+  "li":    {"name": "李清照", "aka": "易安居士", "gender": "woman",
+            "desc_en": "Li Qingzhao, Southern Song poet about 45, naturally beautiful mature face with fine lines at the eye corners and a few grey strands, calm single-lidded eyes, low bun with one silver hairpin, moon-white silk long jacket, barely-there makeup"},
+  "xin":   {"name": "辛弃疾", "aka": "稼轩", "gender": "man",
+            "desc_en": "Xin Qiji, a burly Southern Song general about 50, square weathered face, sharp eyes, grey-streaked black beard, black futou cap, rust-brown round-collared robe with a wide leather belt, a long sword at his left hip"},
+  "sha":   {"name": "沙僧", "aka": "卷帘大将", "gender": "man",
+            "desc_en": "Sha Wujing from Journey to the West, a huge gentle giant with dark bluish-grey skin, wild curly dark red hair and red beard, plain dark grey monk robe, a long necklace of big wooden beads with small carved skulls"},
+  "tao":   {"name": "陶渊明", "aka": "五柳先生", "gender": "man",
+            "desc_en": "Tao Yuanming, Eastern Jin poet about 45, lean and sunburnt, sleepy content eyes, scruffy short beard, grey kudzu headscarf with a small yellow chrysanthemum, loose undyed hemp robe, a hoe on his shoulder"},
+  "liu":   {"name": "柳永", "aka": "白衣卿相", "gender": "man",
+            "desc_en": "Liu Yong, Northern Song lyricist about 35, handsome and rakish, charming half-smile, loose topknot tied with a white ribbon, pure white silk robe a little open at the collar"},
+  "sima":  {"name": "司马迁", "aka": "太史公", "gender": "man",
+            "desc_en": "Sima Qian, Western Han historian about 50, thin and gaunt, deep-set steady eyes, sparse short beard, tall black Han official cap, plain black deep robe with a dark red inner collar, a bundle of bamboo slips"},
+  "jiang": {"name": "姜子牙", "aka": "太公望", "gender": "man",
+            "desc_en": "Jiang Ziya, an ancient sage 72 years old, small and wiry, warm twinkling eyes, long white beard, white hair in a topknot, shaggy straw rain cape over a brown hemp robe, conical bamboo hat on his back, a bamboo fishing rod"}
+ },
+ "group": {
+  "front_row": ["pu", "li", "xin"],
+  "back_row_en": "a blue-grey giant with a red beard, a farmer in hemp with a hoe, a young man in white, a gaunt official in black, a white-bearded old man in a straw cape",
+  "rule_en": "Li Qingzhao is the ONLY woman on the stage; nobody else wears white except the young man."
+ },
+ "scene_en": "live concert at night in light rain at the foot of a huge ancient Chinese city gate, red paper lanterns, haze, rain streaks catching the stage light, warm lantern light against cool blue rain, the foreground filled with blurred audience paper lanterns and phone lights",
+
+ "lyrics": {
+  "chorus8": ["这一关 我也卡过", "那场雨 也淋过我", "你说没事 我听得出来", "是硬撑着 不想哭出来",
+              "不讲道理 不灌鸡汤", "就坐你旁边 等天亮", "这条路 我们都摔过", "哪儿有坑 都给你标着"],
+  "chorus4": ["这一关 我也卡过", "那场雨 也淋过我", "你说没事 我听得出来", "是硬撑着 不想哭出来"],
+  "pu": ["我是蒲松龄 十九岁就考了第一", "县府道三场 榜首全是我名字", "所有人都说 这孩子了不起", "然后我 再也没考上去",
+         "乡试三年一场 场场都落榜", "从少年郎 考到白发苍苍", "过年亲戚 问我考得怎么样", "我说快了 明年一定上",
+         "在别人家 教了三十年书", "学生一个个 走了我没走成的路", "夜里点灯 写狐写鬼写糊涂", "鬼比人好懂 狐比人靠谱",
+         "七十一岁 才补了个贡生", "安慰奖也是奖 我笑着谢恩", "你二战三战 不丢人", "那几页没人要的鬼故事 后来养活了几代人"],
+  "li": ["我是李清照 年少就有才名", "赌书泼茶 茶泼了一地也开心", "十几屋的书画 是我们俩的命", "一场兵荒 一路逃一路丢干净",
+         "过江的时候 只剩几箱破纸在手", "他染了病 没熬过那个秋", "我一个人 守着空屋子守", "后来嫁错了人 一百天就看透",
+         "动手那天 我就去衙门告", "宋朝的法 妻告夫要先坐牢", "宁可去坐牢 也要把这婚离掉", "满城的人 都在说我不好",
+         "你离过婚 被人背后指指点点说", "没事 姐姐被说了快九百年了", "物是人非 眼泪先流 也没关系的", "哭完了 把要写的写完了"],
+  "xin": ["我是辛弃疾 二十二岁带五十骑闯营", "五万人眼皮底下 把叛徒绑回了南方", "那时我想 这辈子就该这样", "一路往北打 打回我的故乡",
+          "后来 他们让我管钱管粮管治安", "哪儿乱了 就派我去收烂摊", "摊子收拾好 一纸调令就换", "一封弹劾下来 让我回家歇着 别干",
+          "一歇 就是快二十年", "把栏杆拍遍 没人问我一句冷暖", "半夜喝多了 挑灯把剑看一眼", "看完了 又把它挂回墙边",
+          "想说的话 到了嘴边就收", "只说一句 天凉了 好个秋", "你问中年人 怎么都不爱开口", "不是没话说 是一张嘴 就收不了口"],
+  "quick_a": ["打碎一个杯子 丢了天上的编制", "七天飞剑穿一回胸 像不像你的周例会",
+              "五斗米我不折腰 裸辞回了老家", "种的豆子 草比苗还高 我也没混成啥",
+              "皇上说且去填词 我就真去填了", "后来有井水的地方 都在唱我的歌"],
+  "quick_b": ["替朋友说了一句公道话 受了最狠的刑", "我没去死 那本书还差一半没写完",
+              "我在河边 钓了很多年不咬钩的鱼", "七十二岁 才等到那个人 你急什么",
+              "日子不是 每天都得赢", "有的天 活下来 就算赢"]
+ },
+
+ "song": {
+  "files": [
+   {"id": "4", "path": "refs/4.mp3", "sections": [
+     {"name": "chorus_open", "lyrics": "chorus8", "singer": "all"},
+     {"name": "pu", "lyrics": "pu", "singer": "pu"},
+     {"name": "chorus_1", "lyrics": "chorus4", "singer": "all"}]},
+   {"id": "1", "path": "refs/1.mp3", "sections": [
+     {"name": "li", "lyrics": "li", "singer": "li"},
+     {"name": "chorus_2", "lyrics": "chorus4", "singer": "all"}]},
+   {"id": "2", "path": "refs/2.mp3", "sections": [
+     {"name": "xin", "lyrics": "xin", "singer": "xin"}]},
+   {"id": "3", "path": "refs/3.mp3", "sections": [
+     {"name": "quick_a", "lyrics": "quick_a", "singers": ["sha", "sha", "tao", "tao", "liu", "liu"]}]},
+   {"id": "5", "path": "refs/5.mp3", "sections": [
+     {"name": "quick_b", "lyrics": "quick_b", "singers": ["sima", "sima", "jiang", "jiang", "all", "all"],
+      "manual_starts": [11.86, 15.32, 18.14, 20.92, 23.48, 26.30]},
+     {"name": "chorus_final", "lyrics": "chorus8", "singer": "all"}]}
+  ],
+  "cuts": [["4", 7.72, 84.20], ["1", 9.07, 64.98], ["2", 7.93, 54.60], ["3", 4.40, 26.00], ["5", 11.00, 66.00]],
+  "fade_out": 4.0,
+  "line_overrides": [
+   {"section": "quick_a", "i": 4, "t_start": 191.04, "t_end": 196.50},
+   {"section": "quick_a", "i": 5, "t_start": 196.64, "t_end": 200.30}
+  ]
+ },
+
+ "shots": {
+  "sing": {
+   "CH0A": {"section": "chorus_open", "lines": [0, 3], "who": "group", "framing": "wide shot from behind the audience, the whole stage visible", "camera": "slowly pushes in over the audience heads", "mood": "warm and moved, all eight singing together", "actions": {"0.1": "the crowd raises lanterns", "3.1": "the three front singers close their eyes"}, "images": ["venue", "pu_sheet", "li_sheet", "xin_sheet"]},
+   "CH0B": {"section": "chorus_open", "lines": [4, 7], "who": "group", "framing": "medium shot of the front row", "camera": "slowly pushes in", "mood": "warm and moved", "actions": {"0.1": "Pu Songling waves his hand no", "1.1": "Li Qingzhao looks up at the rain", "2.1": "Xin Qiji puts his hand on his chest", "3.1": "the three glance at each other and smile, then point gently toward the audience"}, "images": ["venue", "pu_bust", "li_bust", "xin_bust"]},
+   "PU01": {"section": "pu", "lines": [0, 3], "framing": "medium shot pushing to a waist-up shot", "camera": "pushes in from medium to waist-up", "mood": "light self-mocking smile", "actions": {"0.1": "he raises one finger for 'first'", "2.1": "he pats his own shoulder like the adults did", "3.1": "his smile freezes"}},
+   "PU02": {"section": "pu", "lines": [4, 7], "framing": "medium close-up", "camera": "slowly pushes in", "mood": "tired self-mocking expression", "actions": {"0.1": "he shakes his head", "1.1": "he touches his grey beard", "2.1": "a forced polite smile", "3.1": "he nods, eyes wet"}},
+   "PU03": {"section": "pu", "lines": [8, 11], "framing": "tight chest-up close shot, his face large in frame, hard side light", "camera": "drifts slowly to the left", "mood": "tired but warm", "actions": {"0.1": "he taps a ruler-like gesture into his palm", "2.1": "his finger writes characters in the air", "3.1": "he winks and smiles"}},
+   "PU04": {"section": "pu", "lines": [12, 15], "framing": "close-up", "camera": "slowly pushes in", "mood": "moved, holding back tears", "actions": {"1.1": "he cups his hands in a polite bow", "2.1": "he points gently toward the audience", "3.1": "he looks up into the rain, eyes red"}},
+   "CH1": {"section": "chorus_1", "lines": [0, 3], "who": "group", "framing": "medium shot of the front row", "camera": "slowly pushes in", "mood": "warm, singing together", "actions": {"3.1": "the three smile at each other, Li Qingzhao moves one step closer to her microphone"}, "images": ["venue", "pu_bust", "li_bust", "xin_bust"]},
+   "LI01": {"section": "li", "lines": [0, 3], "framing": "medium shot pushing to a waist-up shot", "camera": "pushes in from medium to waist-up", "mood": "calm, a faint fond smile", "actions": {"1.0": "she mimes playfully splashing tea and laughs", "2.1": "she presses a hand to her chest", "3.1": "she opens both hands, empty"}},
+   "LI02": {"section": "li", "lines": [4, 7], "framing": "waist-up shot, the rain heavier", "camera": "slowly drifts right", "mood": "restrained grief turning cold", "actions": {"0.1": "her hands show a small thin stack", "1.1": "she lowers her eyes", "3.1": "a short cold smile"}},
+   "LI03": {"section": "li", "lines": [8, 11], "framing": "medium close-up", "camera": "slowly pushes in", "mood": "restrained at first then firm", "actions": {"0.1": "her hand slaps the mic stand once", "1.1": "she lifts both wrists together as if in shackles", "2.1": "a sharp decisive shake of the head", "3.1": "chin up, a faint cold smile, one tear"}},
+   "LI04": {"section": "li", "lines": [12, 15], "framing": "close-up", "camera": "slowly pushes in", "mood": "gentle, sisterly, tears but chin up", "actions": {"1.0": "she smiles warmly at the audience", "2.1": "one tear runs down", "3.1": "her hand mimes writing with a brush"}},
+   "CH2": {"section": "chorus_2", "lines": [0, 3], "who": "group", "framing": "medium shot of the front row, phone lights everywhere", "camera": "slowly pushes in", "mood": "warm, singing together", "actions": {"3.1": "Li Qingzhao steps back and Xin Qiji strides forward and grips the center microphone stand"}, "images": ["venue", "pu_bust", "li_bust", "xin_bust"]},
+   "XIN01": {"section": "xin", "lines": [0, 3], "framing": "low-angle medium shot", "camera": "slowly tilts up", "mood": "proud, fierce", "actions": {"0.1": "he spreads five fingers", "1.1": "he clenches a fist and yanks it back", "3.1": "he points far to the north"}},
+   "XIN02": {"section": "xin", "lines": [4, 7], "framing": "medium shot", "camera": "static, slight handheld", "mood": "bitter, ironic", "actions": {"0.1": "he counts on his fingers", "1.1": "he spreads both hands", "3.1": "a forced bitter grin, shoulders sinking"}},
+   "XIN03": {"section": "xin", "lines": [8, 11], "framing": "waist-up shot, cold blue light", "camera": "slowly pushes in", "mood": "quiet, suppressed", "actions": {"1.0": "he slaps the microphone stand", "2.1": "he half draws the sword at his hip", "3.1": "he slowly slides the sword back into its sheath"}},
+   "XIN04": {"section": "xin", "lines": [12, 15], "framing": "close-up", "camera": "slowly pushes in", "mood": "holding it in, then bursting out", "actions": {"1.1": "he looks up into the rain and shakes his head with a smile", "3.1": "red-eyed, he shouts the line out"}},
+   "SHA": {"section": "quick_a", "lines": [0, 1], "framing": "waist-up shot", "camera": "slowly pushes in", "mood": "deadpan, comically miserable", "actions": {"0.0": "he holds an invisible cup in both hands and lets it drop", "1.1": "a totally defeated face"}, "dur": 6},
+   "TAO": {"section": "quick_a", "lines": [2, 3], "framing": "chest-up close shot, his face large in frame, a simple wooden farm hoe resting behind his shoulder, nothing in front of his face", "camera": "static", "mood": "lazy, relaxed", "actions": {"0.0": "he straightens his back proudly", "1.1": "he looks at a handful of weeds and scratches his head"}, "dur": 6},
+   "LIU": {"section": "quick_a", "lines": [4, 5], "framing": "medium shot", "camera": "slowly orbits", "mood": "cheeky, charming", "actions": {"0.0": "he shrugs with open palms", "1.1": "he turns and points to the crowd, who sing along"}},
+   "SIMA": {"section": "quick_b", "lines": [0, 1], "framing": "close-up, very still", "camera": "very slowly pushes in", "mood": "quiet, unbreakable", "actions": {"0.1": "he closes his eyes", "1.1": "he raises the bundle of bamboo slips"}, "dur": 6},
+   "JIANG": {"section": "quick_b", "lines": [2, 3], "framing": "medium shot, fishing rod in hand", "camera": "static", "mood": "kind, amused", "actions": {"0.1": "he lifts the rod and looks at the straight hook", "1.1": "he smiles and points gently at the camera"}, "dur": 6},
+   "BR": {"section": "quick_b", "lines": [4, 5], "who": "group", "framing": "medium wide shot, everything hushed", "camera": "very slowly pushes in", "mood": "soft, almost whispered, heads slightly bowed", "actions": {"1.0": "phone lights in the crowd come on one by one"}, "images": ["venue", "pu_bust", "li_bust", "xin_bust"], "dur": 6},
+   "CHFA": {"section": "chorus_final", "lines": [0, 3], "who": "group", "framing": "wide shot of the whole stage and a sea of lanterns", "camera": "cranes up slowly from the audience", "mood": "huge, warm, everyone singing along", "actions": {"0.1": "the crowd raises lanterns and phones", "2.1": "the singers raise their free hands"}, "images": ["venue", "pu_sheet", "li_sheet", "xin_sheet"]},
+   "CHFB": {"section": "chorus_final", "lines": [4, 7], "who": "group", "framing": "front-row medium close shot", "camera": "slowly pushes in", "mood": "warm, smiling through tears", "actions": {"1.1": "Li Qingzhao looks up at the rain", "3.0": "the three glance at each other and smile", "3.1": "they point gently toward the audience"}, "images": ["venue", "pu_bust", "li_bust", "xin_bust"]}
+  },
+  "stills": {
+   "R1": {"images": ["aud_1"], "what": "medium close-up of the young woman from the reference image standing in the crowd, hugging her exam books, looking up at the stage, her eyes slowly filling with tears", "camera": "static, shallow depth of field"},
+   "R2": {"images": ["aud_1"], "what": "medium close-up of the young woman from the reference image in the crowd, she takes off her glasses, wipes her eyes and gives a small smile", "camera": "slow push in"},
+   "R3": {"images": ["aud_2"], "what": "medium close-up of the woman from the reference image in the crowd with a sleeping child on her shoulder, biting her lip to hold back tears", "camera": "static"},
+   "R4": {"images": ["aud_2"], "what": "medium close-up of the woman from the reference image in the crowd with a sleeping child on her shoulder, she laughs softly while a tear falls", "camera": "slow push in"},
+   "R5": {"images": ["aud_3"], "what": "medium close-up of the middle-aged man from the reference image in the crowd, his hand slowly crushes a beer can, jaw tight", "camera": "static"},
+   "R6": {"images": ["aud_3"], "what": "medium close-up of the middle-aged man from the reference image in the crowd, he lowers his head and quickly wipes his eyes with the back of his hand", "camera": "slow push in"},
+   "R7": {"images": ["aud_4"], "what": "medium close-up of the night-shift rider from the reference image in the crowd, laughing and wiping rain off his face", "camera": "static"},
+   "R8": {"images": ["crowd"], "what": "the crowd from the reference image singing along with eyes closed, lanterns and phone lights raised high, rain falling", "camera": "slow lateral drift"},
+   "R9": {"images": ["aud_4"], "what": "the night-shift rider from the reference image in the crowd holding up his phone light and singing along loudly", "camera": "slow push in"},
+   "DJ": {"images": ["dj"], "what": "the young DJ from the reference image at a DJ booth on the stage under the city gate, pushing a fader, then looking up toward the singers with a nod", "camera": "static"},
+   "END": {"images": ["venue", "crowd"], "what": "the whole scene from the reference images: eight singers in ancient costume on a wooden stage at the foot of the huge city gate bow to a sea of lanterns and phone lights in the rain", "camera": "cranes up and pulls far back to the whole city gate", "dur": 6}
+  }
+ },
+
+ "edit": {
+  "cutaways": [
+   ["R8", 0.0, 0.0, 3.09], ["DJ", 0.0, 22.8, 1.6], ["R1", 0.3, 42.5, 3.2], ["R2", 0.5, 64.5, 1.8],
+   ["R3", 0.0, 76.2, 2.8], ["R4", 0.0, 88.6, 2.0], ["R4", 2.2, 99.4, 1.6], ["R3", 2.8, 110.3, 1.1],
+   ["DJ", 1.8, 121.0, 1.2], ["R5", 0.0, 131.5, 3.9], ["R6", 0.0, 144.9, 1.7], ["R5", 3.9, 156.5, 1.1],
+   ["R6", 2.0, 177.5, 2.5], ["R7", 0.5, 198.5, 2.0], ["R8", 3.1, 229.0, 1.3], ["R9", 0.5, 236.0, 2.0]
+  ],
+  "end": {"clip": "END", "at": 240.2, "slow": 2.0},
+  "title_until": 6.2,
+  "end_card_from": 244.0
+ }
+}

@@ -1,11 +1,12 @@
-# My Skills · 出图 / 素材类 Skill 合集
+# My Skills · 出图 / 素材 / 视频类 Skill 合集
 
-这里收录我自己整理的 AI Agent Skill（Codex / Claude Code 通用的 `SKILL.md` 格式），主要是出图和素材管理两类。每个 Skill 放在 `skills/` 下的独立文件夹里，复制过去就能用。
+这里收录我自己整理的 AI Agent Skill（Codex / Claude Code 通用的 `SKILL.md` 格式），主要是出图、素材管理和 AI 视频制作三类。每个 Skill 放在 `skills/` 下的独立文件夹里，复制过去就能用。
 
 | Skill | 作用 | 平台 | 状态 |
 |---|---|---|---|
 | [qwen-image-local](skills/qwen-image-local/) | 用 stable-diffusion.cpp 在本地运行 Qwen-Image-2.1-Turbo GGUF 文生图 | Windows PowerShell | 只有 Skill 和脚本，生成效果尚未实测 |
 | [historical-image-library](skills/historical-image-library/) | 按名称或编号，从本地历史图文库取回图片和对应的提示词原文 | Python 3 | 35 组资料，含提示词，**不含图片** |
+| [ancient-cypher](skills/ancient-cypher/) | 古人群像说唱 MV：多人接力唱自己的倒霉事，Suno 做歌 + MiniMax H3 逐句对口型 + 自动剪辑包装 | Python 3 + ffmpeg | 已做成一期（《我也卡过》，8 人 4 分 15 秒），需先装 [ancient-rap-battle](https://github.com/10291124jcjc-dotcom/ancient-rap-battle) |
 
 ## 安装
 
@@ -18,9 +19,27 @@
 git clone https://github.com/zhanghao123vip/my-skills.git
 cp -r my-skills/skills/qwen-image-local ~/.codex/skills/
 cp -r my-skills/skills/historical-image-library ~/.codex/skills/
+cp -r my-skills/skills/ancient-cypher ~/.claude/skills/
 ```
 
 复制后重启 Agent，它就会识别到这些 Skill。
+
+## ancient-cypher
+
+一群古人站在同一个舞台上，轮流把自己卡住过的那一关唱给台下的现代人听（考不上、离婚被议论、中年被晾……），副歌全员合唱。在 Claude Code 里说「做一期多人古人说唱」，它会带你走完：
+
+1. 拉片拆参考视频（结构、爆点、共情点）
+2. 选人写词（每句一个真实典故 + 一个能照字面演的动作，附史料出处）
+3. Suno 分 5 段 Extend 做多声线的歌，Midjourney 定妆
+4. 自动分离人声、逐句对齐、在小节线上拼歌
+5. MiniMax H3 每 4 句一条、按半句精确到 0.01 秒对口型，批量生成并自动检查口型
+6. 按歌曲时间轴剪辑、插观众反应镜头，加金色字幕、名字卡、片名，出封面和发布文案
+
+**依赖**：先安装原版 [ancient-rap-battle](https://github.com/10291124jcjc-dotcom/ancient-rap-battle)（MIT），本 Skill 复用它的 H3 提交器、口型检查、节拍网格和字幕样式。还需要 ffmpeg、`pip install demucs faster-whisper soundfile scipy numpy pillow`，以及 MiniMax API Key（环境变量 `MINIMAX_API_KEY`）。
+
+**花费参考**：第一期 8 人、约 4 分钟，H3 768P 总计约 $25.5。每次花钱前都会先报价。
+
+示例设定见 `skills/ancient-cypher/examples/wo-ye-ka-guo/episode.json`。仓库里不放人物定妆图和成片。
 
 ## qwen-image-local
 
@@ -64,41 +83,41 @@ python retrieve.py --image 122
 
 | 名称 | 资料包 | 图数 | 图片编号 |
 |---|---|---|---|
-| �ִ��߶��Ź���װ | `archive-4936cf980522` | 2 | 1, 3 |
-| �ִ�ѧԺ��Ź��� | `archive-143857c755d5` | 1 | 2 |
-| ��Ա�Ƴ���˫ͼ | `archive-e5c863a02e97` | 2 | 5, 6 |
-| �й����б������ | `archive-a49208e2835f` | 2 | 7, 20 |
-| �й����ж�������Ʒ | `archive-ec9219790e09` | 1 | 8 |
-| �������볬��ȡ��ϵ�� | `archive-d21ecdcfa7a8` | 2 | 9, 10 |
-| ������Ļ����� | `archive-70b43e3f8475` | 3 | 11, 12, 51 |
-| ҹ�����Ҹ��� | `archive-e97536af11dd` | 2 | 14, 39 |
-| �ػ���Ը���� | `archive-61e48310f166` | 4 | 15, 23, 24, 25 |
-| �����ɫ�趨��������ͼ | `archive-d924835317bd` | 17 | 16, 28, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 |
-| ���߾Ź������� | `archive-43000e0dd32f` | 2 | 17, 46 |
-| ���������޵����� | `archive-f3f545250cb2` | 3 | 19, 54, 55 |
-| ������˿�������� | `archive-38377fa43c5d` | 3 | 21, 22, 30 |
-| ��ջ�Ӱ����ĵ�� | `archive-c3f8ef3a7322` | 1 | 29 |
-| ҹ���ͷ¶Ӫ�� | `archive-9ee9e7f0b36a` | 1 | 31 |
-| �۳�������ץ��ϵ�� | `archive-1b5b384484cc` | 4 | 32, 45, 52, 53 |
-| ���Ĵ����� | `archive-87e504bea217` | 3 | 34, 37, 38 |
-| ʢ�Ĺ�԰��͸��ȹ | `archive-004c97e6693f` | 2 | 36, 50 |
-| �ִ��߶�������ʯ�Ź��� | `archive-2b0d8972e419` | 1 | 40 |
-| ˽������ͼ��Χ | `archive-3934b2d54d8a` | 2 | 41, 59 |
-| �����ŷ��Ӱ��Ů | `archive-e8465b610803` | 4 | 42, 44, 60, 61 |
-| �����ŷ�Ϫ������ | `archive-cc3c8cfb2068` | 1 | 43 |
-| ����˫��βɭϵ | `archive-793ea17ebc63` | 2 | 48, 49 |
-| �¹������ɼ� | `archive-9445edddff2b` | 11 | 56, 57, 96, 97, 98, 99, 100, 101, 102, 103, 104 |
-| �����ֻ��沿���� | `archive-051797cdfb44` | 1 | 62 |
-| �»������ɼ� | `archive-69bbf15f65b8` | 5 | 78, 79, 80, 81, 82 |
-| �ŷ��ٴ�������� | `archive-fa6122bbf170` | 1 | 83 |
-| ѩ�������ɼ� | `archive-89cf06526a21` | 6 | 84, 85, 86, 87, 88, 89 |
-| �ػͷ���߸��� | `archive-590ecf82cf55` | 5 | 90, 91, 92, 93, 94 |
-| �̵����ȱ����� | `archive-68dab92f4585` | 1 | 95 |
-| �ҷ���֬ҹ԰ | `archive-7123c6891a8e` | 1 | 105 |
-| ���������кڷ���Ů | `archive-898455c4f7bf` | 8 | 106, 107, 108, 109, 110, 111, 112, 113 |
-| �紵����������Ů | `archive-a0d6c188510d` | 4 | 114, 115, 116, 117 |
-| �����ŷ��Ӱ��Ů���»����������֧ | `archive-61384250a3f7` | 4 | 118, 119, 120, 121 |
-| ʢ��ɭ������ȹд�������ɭ���֧ | `archive-abb440be48ec` | 3 | 122, 123, 124 |
+| 现代高定九宫格穿装 | `archive-4936cf980522` | 2 | 1, 3 |
+| 现代学院风九宫格 | `archive-143857c755d5` | 1 | 2 |
+| 会员制超市双图 | `archive-e5c863a02e97` | 2 | 5, 6 |
+| 中国超市背面回眸 | `archive-a49208e2835f` | 2 | 7, 20 |
+| 中国超市蹲下挑商品 | `archive-ec9219790e09` | 1 | 8 |
+| 便利店与超市取货系列 | `archive-d21ecdcfa7a8` | 2 | 9, 10 |
+| 冷调自拍换场景 | `archive-70b43e3f8475` | 3 | 11, 12, 51 |
+| 夜晚卧室俯拍 | `archive-e97536af11dd` | 2 | 14, 39 |
+| 敦煌祈愿人物 | `archive-61e48310f166` | 4 | 15, 23, 24, 25 |
+| 人物角色设定板与三视图 | `archive-d924835317bd` | 17 | 16, 28, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 |
+| 海边九宫格自拍 | `archive-43000e0dd32f` | 2 | 17, 46 |
+| 东方华宴寝殿美人 | `archive-f3f545250cb2` | 3 | 19, 54, 55 |
+| 极简蕾丝近景人像 | `archive-38377fa43c5d` | 3 | 21, 22, 30 |
+| 晴空花影巨型牡丹 | `archive-c3f8ef3a7322` | 1 | 29 |
+| 夜间街头露营椅 | `archive-9ee9e7f0b36a` | 1 | 31 |
+| 粉衬衫湖边抓拍系列 | `archive-1b5b384484cc` | 4 | 32, 45, 52, 53 |
+| 俯拍吹手心 | `archive-87e504bea217` | 3 | 34, 37, 38 |
+| 盛夏果园清透白裙 | `archive-004c97e6693f` | 2 | 36, 50 |
+| 现代高定黑银钻石九宫格 | `archive-2b0d8972e419` | 1 | 40 |
+| 私密相册截图氛围 | `archive-3934b2d54d8a` | 2 | 41, 59 |
+| 东方古风电影美女 | `archive-e8465b610803` | 4 | 42, 44, 60, 61 |
+| 东方古风溪边正脸 | `archive-cc3c8cfb2068` | 1 | 43 |
+| 绿荫双马尾森系 | `archive-793ea17ebc63` | 2 | 48, 49 |
+| 月桂灵兔仙姬 | `archive-9445edddff2b` | 11 | 56, 57, 96, 97, 98, 99, 100, 101, 102, 103, 104 |
+| 极近手机面部自拍 | `archive-051797cdfb44` | 1 | 62 |
+| 月华白羽仙姬 | `archive-69bbf15f65b8` | 5 | 78, 79, 80, 81, 82 |
+| 古风临窗火锅递碗 | `archive-fa6122bbf170` | 1 | 83 |
+| 雪域银凰仙姬 | `archive-89cf06526a21` | 6 | 84, 85, 86, 87, 88, 89 |
+| 敦煌飞天高复刻 | `archive-590ecf82cf55` | 5 | 90, 91, 92, 93, 94 |
+| 绿调咖啡杯近景 | `archive-68dab92f4585` | 1 | 95 |
+| 桃粉胭脂夜园 | `archive-7123c6891a8e` | 1 | 105 |
+| 林荫氧气感黑发少女 | `archive-898455c4f7bf` | 8 | 106, 107, 108, 109, 110, 111, 112, 113 |
+| 风吹雏菊氧气少女 | `archive-a0d6c188510d` | 4 | 114, 115, 116, 117 |
+| 东方古风电影美女｜月华琉璃仙宴分支 | `archive-61384250a3f7` | 4 | 118, 119, 120, 121 |
+| 盛夏森林逆光白裙写真｜晨光森灵分支 | `archive-abb440be48ec` | 3 | 122, 123, 124 |
 
 </details>
 
