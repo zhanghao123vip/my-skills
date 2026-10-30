@@ -1,30 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Shared helpers: find the ancient-rap-battle skill (its H3 runner, lip check, beat grid and text styles are reused),
-load episode.json, paths."""
+"""Shared helpers: load episode.json, paths, json, durations, line timings."""
 import json
 import os
 import subprocess
 import sys
 
-CANDIDATES = [os.environ.get("ARB_SKILL_DIR", ""),
-              # installed next to this skill (same skills folder)
-              os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "ancient-rap-battle"),
-              os.path.expanduser("~/.claude/skills/ancient-rap-battle"),
-              os.path.expanduser("~/.codex/skills/ancient-rap-battle")]
 
-
-def arb_dir():
-    for d in CANDIDATES:
-        if d and os.path.exists(os.path.join(d, "scripts", "h3run.py")):
-            return d
-    sys.exit("ancient-rap-battle skill not found: install it from "
-             "https://github.com/10291124jcjc-dotcom/ancient-rap-battle or set ARB_SKILL_DIR")
-
-
-ARB = arb_dir()
-ARB_SCRIPTS = os.path.join(ARB, "scripts")
-if ARB_SCRIPTS not in sys.path:
-    sys.path.insert(0, ARB_SCRIPTS)
+def die(msg):
+    sys.exit("ERROR: " + msg)
 
 
 def P(ep, *parts):

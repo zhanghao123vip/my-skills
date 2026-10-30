@@ -1,13 +1,13 @@
 ---
 name: ancient-cypher
-description: 古人群像说唱（多人接力 cypher）：一群历史人物轮流上台，把自己真实的倒霉事翻成当代人的处境唱出来（考不上、离婚被议论、中年被晾……），副歌全员合唱，做成 3–4 分钟的 AI 说唱 MV。从拉片拆参考视频、选人写词、Suno 分段 Extend 做多声线歌、Midjourney 定妆，到逐句对齐、拼歌、MiniMax H3 按 4 句一条对口型批量生成、剪辑包装、封面文案一条龙。用户说「做一期多人古人说唱」「古人群像 / 接力说唱」「仿这条古人合唱视频」「把 battle 改成多人模式」时使用。基于 ancient-rap-battle skill（必须先装）。Make a multi-singer AI rap MV where historical figures take turns telling their life stories as modern struggles, with H3 lip-sync.
+description: 古人群像说唱（多人接力 cypher）：一群历史人物轮流上台，把自己真实的倒霉事翻成当代人的处境唱出来（考不上、离婚被议论、中年被晾……），副歌全员合唱，做成 3–4 分钟的 AI 说唱 MV。从拉片拆参考视频、选人写词、Suno 分段 Extend 做多声线歌、Midjourney 定妆，到逐句对齐、拼歌、MiniMax H3 按 4 句一条对口型批量生成、剪辑包装、封面文案一条龙。用户说「做一期多人古人说唱」「古人群像 / 接力说唱」「仿这条古人合唱视频」「把 battle 改成多人模式」时使用。自带全部脚本，不依赖其他 skill。Make a multi-singer AI rap MV where historical figures take turns telling their life stories as modern struggles, with H3 lip-sync.
 ---
 
 # 古人群像说唱 · ancient-cypher
 
 一群古人站在同一个舞台上，轮流唱自己卡住过的那一关，台下坐的是现代打工人。成片 3–4 分钟、16:9、1080P：冷开场副歌 → 三段长主歌（每段 16 句）→ 快闪轮唱（每人 2 句）→ 桥段 → 最终副歌。
 
-和 `ancient-rap-battle` 的区别：那边是两人对唱 diss、约 90 秒；这里是多人接力、共情向，`episode.json` 支持任意人数。这里的脚本复用那个 skill 的 H3 提交器、口型检查、节拍网格和字幕样式，**必须先装 ancient-rap-battle**（或用 `ARB_SKILL_DIR` 指向它）。
+和两人对唱的 ancient-rap-battle 不同：那边是两人互怼、约 90 秒；这里是多人接力、共情向，`episode.json` 支持任意人数。H3 提交器、口型检查、节拍网格和字幕样式来自 [ancient-rap-battle](https://github.com/10291124jcjc-dotcom/ancient-rap-battle)（MIT），已原样复制进 `scripts/`（`h3run.py`、`qa.py`、`beatgrid.py`、`textstyle.py`，版权声明见 `LICENSE-ancient-rap-battle`），**不需要另外安装**。
 
 ## 0. 先说清楚
 
@@ -18,7 +18,7 @@ description: 古人群像说唱（多人接力 cypher）：一群历史人物轮
 - **花钱的步骤一律先报价、等用户点头**：H3 每次提交、重抽、image-01 出图
 - 全程用中文和用户说话；API Key 只走环境变量，绝不写进文件或记忆
 
-开工先跑 `python S/setup_check.py`（`S/` = 本 skill 的 `scripts/`）。没装 ancient-rap-battle 就加 `--install-arb`，它会把原版（MIT）克隆到本 skill 旁边；国内先设好 `HTTPS_PROXY`。
+开工先跑 `python S/setup_check.py`（`S/` = 本 skill 的 `scripts/`），缺什么它会逐项列出来。
 
 ## 工作区
 
@@ -74,8 +74,8 @@ python S/build_song.py EP     # 按 song.cuts 在小节线上拼：音乐_最终
 
 ```
 python S/make_shots.py EP                                   # → work/clips.json
-python ARB/scripts/h3run.py EP --all --estimate             # 报价，用户点头后：
-python ARB/scripts/h3run.py EP --all                        # 并行提交，每条自动口型检查
+python S/h3run.py EP --all --estimate                      # 报价，用户点头后：
+python S/h3run.py EP --all                                 # 并行提交，每条自动口型检查
 ```
 
 批量要 20–40 分钟，放后台跑，完成会自动通知。跑完逐条抽帧看（`references/h3.md` 的检查清单），列出要重抽的和价格，用户同意后改 `episode.json` → `make_shots.py EP 某ID` → `h3run.py EP 某ID`。

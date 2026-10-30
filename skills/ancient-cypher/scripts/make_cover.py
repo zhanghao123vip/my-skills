@@ -14,8 +14,7 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFont, ImageOps
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import _lib  # noqa: E402
-from common import font  # noqa: E402  (ancient-rap-battle)
-from cover import CREAM, GOLD, RED, fancy, small  # noqa: E402
+from textstyle import CREAM, GOLD, RED, fancy, font, small  # noqa: E402
 
 ap = argparse.ArgumentParser()
 ap.add_argument("ep")

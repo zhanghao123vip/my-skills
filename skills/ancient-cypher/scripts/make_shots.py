@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Step 8 - write work/clips.json for the battle skill's h3run.py from episode.json "shots".
+"""Step 8 - write work/clips.json for h3run.py from episode.json "shots".
 
 Singing shots: the lip-sync window starts 0.15 s before the first line; every half line (split at the space) is
 timed to 0.01 s from the whisper word times and can carry an action ("line.half" -> what the singer does).
@@ -8,7 +8,7 @@ Group shots ("who": "group") describe the front row left / center / right from t
 Stills (audience, DJ, ending) are silent clips.
 
 usage: python scripts/make_shots.py <episode_dir> [ID ...]   (no ids = all shots; ids = rewrite only those)
-then:  python <ancient-rap-battle>/scripts/h3run.py <episode_dir> --all --estimate
+then:  python scripts/h3run.py <episode_dir> --all --estimate
 """
 import os
 import sys

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Step 11 - packaging with the battle skill's text styles: grade B, opening title (+ feat. list + AI notice),
+"""Step 11 - packaging (text styles in textstyle.py): grade B, opening title (+ feat. list + AI notice),
 a name card on each singer's first line (lifted 150 px so long lyric lines never run into it), every lyric line in
 gold with the last two characters on a red brush stroke, end question card, 2.5 s fade-out.
 
@@ -15,9 +15,7 @@ from PIL import ImageFont
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import _lib  # noqa: E402
-from common import font  # noqa: E402  (ancient-rap-battle)
-from cover import CREAM, GOLD as GOLD_GRAD, fancy  # noqa: E402
-from package import GRADE, Sheet  # noqa: E402
+from textstyle import CREAM, GOLD as GOLD_GRAD, GRADE, Sheet, fancy, font  # noqa: E402
 
 ap = argparse.ArgumentParser()
 ap.add_argument("ep")

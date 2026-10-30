@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [qwen-image-local](skills/qwen-image-local/) | 用 stable-diffusion.cpp 在本地运行 Qwen-Image-2.1-Turbo GGUF 文生图 | Windows PowerShell | 只有 Skill 和脚本，生成效果尚未实测 |
 | [historical-image-library](skills/historical-image-library/) | 按名称或编号，从本地历史图文库取回图片和对应的提示词原文 | Python 3 | 35 组资料，含提示词，**不含图片** |
-| [ancient-cypher](skills/ancient-cypher/) | 古人群像说唱 MV：多人接力唱自己的倒霉事，Suno 做歌 + MiniMax H3 逐句对口型 + 自动剪辑包装 | Python 3 + ffmpeg | 已做成一期（《我也卡过》，8 人 4 分 15 秒），需先装 [ancient-rap-battle](https://github.com/10291124jcjc-dotcom/ancient-rap-battle) |
+| [ancient-cypher](skills/ancient-cypher/) | 古人群像说唱 MV：多人接力唱自己的倒霉事，Suno 做歌 + MiniMax H3 逐句对口型 + 自动剪辑包装 | Python 3 + ffmpeg | 已做成一期（《我也卡过》，8 人 4 分 15 秒），自带全部脚本 |
 
 ## 安装
 
@@ -35,13 +35,15 @@ cp -r my-skills/skills/ancient-cypher ~/.claude/skills/
 5. MiniMax H3 每 4 句一条、按半句精确到 0.01 秒对口型，批量生成并自动检查口型
 6. 按歌曲时间轴剪辑、插观众反应镜头，加金色字幕、名字卡、片名，出封面和发布文案
 
-**依赖**：本 Skill 复用原版 [ancient-rap-battle](https://github.com/10291124jcjc-dotcom/ancient-rap-battle)（MIT）的 H3 提交器、口型检查、节拍网格和字幕样式。复制进技能目录后运行一次环境检查，加 `--install-arb` 会把原版克隆到旁边（国内先设 `HTTPS_PROXY`）：
+**开箱即用，不依赖其他 Skill。** H3 提交器、口型检查、节拍网格和字幕样式来自 [ancient-rap-battle](https://github.com/10291124jcjc-dotcom/ancient-rap-battle)（MIT，作者 硅基废话），已原样复制进 `scripts/`，原版权声明和许可证保留在 `skills/ancient-cypher/LICENSE-ancient-rap-battle`。
+
+复制进技能目录后先跑一次环境检查，缺什么它会逐项列出来：
 
 ```bash
-python ~/.claude/skills/ancient-cypher/scripts/setup_check.py --install-arb
+python ~/.claude/skills/ancient-cypher/scripts/setup_check.py
 ```
 
-它会逐项列出还缺什么：ffmpeg（7 以上最好，旧版也兼容）、`pip install demucs faster-whisper soundfile scipy numpy pillow`、MiniMax API Key（环境变量 `MINIMAX_API_KEY`；国内 Key 另设 `MINIMAX_API_BASE=https://api.minimaxi.com`）。还要有 Suno 和 Midjourney 账号。
+需要：Python 3.9+、ffmpeg（新旧版本都兼容）、`pip install demucs faster-whisper soundfile scipy numpy pillow`（第一次运行会下载约 2GB 模型）、MiniMax API Key（环境变量 `MINIMAX_API_KEY`；国内 Key 另设 `MINIMAX_API_BASE=https://api.minimaxi.com`），以及 Suno、Midjourney 账号。字幕用的毛笔字体第一次会从 GitHub 下载，国内需要代理。
 
 **花费参考**：第一期 8 人、约 4 分钟，H3 768P 总计约 $25.5。每次花钱前都会先报价。
 
