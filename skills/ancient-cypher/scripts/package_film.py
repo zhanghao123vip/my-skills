@@ -96,10 +96,19 @@ script = os.path.join(tmp, "fc.txt")
 open(script, "w", encoding="utf-8").write(";".join(fc))
 os.makedirs(_lib.P(EP, "final"), exist_ok=True)
 out = _lib.P(EP, "final", "%s_成片%s.mp4" % (E["title"], "_测试" if a.test else ""))
-# "-/filter_complex <file>" reads the graph from a file (ffmpeg 7+; older builds: -filter_complex_script)
-subprocess.run(["ffmpeg", "-y", "-v", "error"] + inputs + ["-/filter_complex", script, "-map", "[%s]" % last,
-                "-map", "[aout]", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p", "-r", str(FPS),
-                "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", out], check=True)
+tail = ["-map", "[%s]" % last, "-map", "[aout]", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
+        "-r", str(FPS), "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", out]
+# the graph is too long for a command line, so it is read from a file: "-/filter_complex <file>" since ffmpeg 7,
+# "-filter_complex_script <file>" before (removed in ffmpeg 8) - try the new form, fall back to the old one
+for flag in ("-/filter_complex", "-filter_complex_script"):
+    r = subprocess.run(["ffmpeg", "-y", "-v", "error"] + inputs + [flag, script] + tail, capture_output=True, text=True,
+                       encoding="utf-8", errors="replace")
+    if r.returncode == 0:
+        break
+    if "Unrecognized option" not in r.stderr and "Option not found" not in r.stderr:
+        sys.exit(r.stderr)
+else:
+    sys.exit("this ffmpeg reads neither -/filter_complex nor -filter_complex_script:\n" + r.stderr)
 print("wrote", out)
 if a.phone and not a.test:
     phone = out.replace("_成片.mp4", "_手机预览.mp4")

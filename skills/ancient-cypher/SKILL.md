@@ -18,7 +18,7 @@ description: 古人群像说唱（多人接力 cypher）：一群历史人物轮
 - **花钱的步骤一律先报价、等用户点头**：H3 每次提交、重抽、image-01 出图
 - 全程用中文和用户说话；API Key 只走环境变量，绝不写进文件或记忆
 
-开工先跑 `python S/setup_check.py`（`S/` = 本 skill 的 `scripts/`）。
+开工先跑 `python S/setup_check.py`（`S/` = 本 skill 的 `scripts/`）。没装 ancient-rap-battle 就加 `--install-arb`，它会把原版（MIT）克隆到本 skill 旁边；国内先设好 `HTTPS_PROXY`。
 
 ## 工作区
 

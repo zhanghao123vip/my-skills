@@ -7,6 +7,8 @@ import subprocess
 import sys
 
 CANDIDATES = [os.environ.get("ARB_SKILL_DIR", ""),
+              # installed next to this skill (same skills folder)
+              os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "ancient-rap-battle"),
               os.path.expanduser("~/.claude/skills/ancient-rap-battle"),
               os.path.expanduser("~/.codex/skills/ancient-rap-battle")]
 
